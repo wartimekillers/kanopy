@@ -145,6 +145,62 @@ const resources = {
         description: 'Không có phí ẩn, không có chi phí thiết lập, không cam kết dài hạn. Bắt đầu với bản dùng thử miễn phí.',
         whatsIncluded: 'Những gì được bao gồm',
         commonQuestions: 'Câu hỏi thường gặp',
+        plans: {
+          launch: {
+            name: 'Ưu đãi Ra mắt',
+            price: '0 VND',
+            period: 'miễn phí 1 năm',
+            description: 'Dùng thử miễn phí 1 năm cho thành viên sáng lập',
+            features: [
+              'Truy cập đầy đủ mạng lưới đối tác',
+              'Dashboard phân tích cơ bản',
+              'Hỗ trợ email',
+              'Onboarding miễn phí',
+              'Không giới hạn việc đổi thưởng'
+            ],
+            cta: 'Bắt đầu dùng thử miễn phí',
+            popular: 'Phổ biến nhất'
+          },
+          standard: {
+            name: 'Gói Tiêu chuẩn',
+            price: '25,000 VND',
+            period: 'mỗi nhân viên/tháng',
+            description: 'Truy cập đầy đủ phúc lợi & dashboard phân tích',
+            features: [
+              'Tất cả tính năng Launch',
+              'Dashboard phân tích nâng cao',
+              'Hỗ trợ ưu tiên',
+              'Báo cáo tùy chỉnh',
+              'API tích hợp'
+            ],
+            cta: 'Bắt đầu ngay'
+          },
+          enterprise: {
+            name: 'Gói Doanh nghiệp',
+            price: 'Liên hệ',
+            period: 'để báo giá',
+            description: 'Tùy chỉnh cho 500+ nhân viên',
+            features: [
+              'Tất cả tính năng Standard',
+              'Tích hợp SSO',
+              'Quản lý tài khoản chuyên dụng',
+              'Onboarding tùy chỉnh',
+              'SLA cam kết'
+            ],
+            cta: 'Liên hệ bán hàng'
+          }
+        },
+        features: [
+          'Truy cập 100+ đối tác tin cậy',
+          'Dashboard phân tích thời gian thực',
+          'Ứng dụng mobile dễ sử dụng',
+          'Onboarding & đào tạo',
+          'Hỗ trợ khách hàng 24/7',
+          'Tích hợp API',
+          'Báo cáo tùy chỉnh',
+          'Quản lý nhóm',
+          'Bảo mật dữ liệu'
+        ],
         faq: {
           changePlans: {
             question: 'Tôi có thể thay đổi gói sau này không?',
@@ -775,6 +831,62 @@ const resources = {
         description: 'No hidden fees, no setup costs, no long-term commitments. Start with our free trial.',
         whatsIncluded: 'What\'s Included',
         commonQuestions: 'Common Questions',
+        plans: {
+          launch: {
+            name: 'Launch Offer',
+            price: '0 VND',
+            period: 'free for 1 year',
+            description: 'Free 1-year trial for founding members',
+            features: [
+              'Full access to partner network',
+              'Basic analytics dashboard',
+              'Email support',
+              'Free onboarding',
+              'Unlimited redemptions'
+            ],
+            cta: 'Start Free Trial',
+            popular: 'Most Popular'
+          },
+          standard: {
+            name: 'Standard Plan',
+            price: '25,000 VND',
+            period: 'per employee/month',
+            description: 'Full access to perks & analytics dashboard',
+            features: [
+              'All Launch features',
+              'Advanced analytics dashboard',
+              'Priority support',
+              'Custom reporting',
+              'API integrations'
+            ],
+            cta: 'Get Started'
+          },
+          enterprise: {
+            name: 'Enterprise Plan',
+            price: 'Contact',
+            period: 'for quote',
+            description: 'Tailored for 500+ employees',
+            features: [
+              'All Standard features',
+              'SSO integration',
+              'Dedicated account manager',
+              'Custom onboarding',
+              'SLA commitment'
+            ],
+            cta: 'Contact Sales'
+          }
+        },
+        features: [
+          'Access to 100+ trusted partners',
+          'Real-time analytics dashboard',
+          'Easy-to-use mobile app',
+          'Onboarding & training',
+          '24/7 customer support',
+          'API integrations',
+          'Custom reporting',
+          'Team management',
+          'Data security'
+        ],
         faq: {
           changePlans: {
             question: 'Can I change plans later?',

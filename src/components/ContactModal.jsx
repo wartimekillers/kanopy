@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function ContactModal({ isOpen, onClose, type = 'general' }) {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,12 +14,12 @@ export default function ContactModal({ isOpen, onClose, type = 'general' }) {
     e.preventDefault()
     
     // Create email body
-    const subject = type === 'partner' ? 'Partnership Inquiry' : 'Kanopy Free Trial Request'
+    const subject = type === 'partner' ? t('contact.becomePartner') : 'Kanopy Free Trial Request'
     const body = `
-Name: ${formData.name}
-Email: ${formData.email}
-Company: ${formData.company}
-Message: ${formData.message}
+${t('contact.fullName')}: ${formData.name}
+${t('contact.email')}: ${formData.email}
+${t('contact.company')}: ${formData.company}
+${t('contact.message')}: ${formData.message}
 
 Type: ${type}
     `.trim()
@@ -45,7 +47,7 @@ Type: ${type}
         <div className="p-6 border-b border-gray-200">
           <div className="flex justify-between items-center">
             <h2 className="text-2xl font-bold text-gray-900">
-              {type === 'partner' ? 'Become a Partner' : 'Contact Us'}
+              {type === 'partner' ? t('contact.becomePartner') : t('contact.contactUs')}
             </h2>
             <button 
               onClick={onClose}
@@ -56,15 +58,15 @@ Type: ${type}
           </div>
           <p className="text-gray-600 mt-2">
             {type === 'partner' 
-              ? 'Join our partner network and grow your business'
-              : 'Get started with Kanopy or ask us anything'
+              ? t('contact.partnerDescription')
+              : t('contact.generalDescription')
             }
           </p>
         </div>
 
         {/* Quick Contact Options */}
         <div className="p-6 border-b border-gray-200">
-          <h3 className="font-semibold text-gray-900 mb-4">Quick Contact</h3>
+          <h3 className="font-semibold text-gray-900 mb-4">{t('contact.quickContact')}</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <button
               onClick={openZalo}
@@ -75,7 +77,7 @@ Type: ${type}
               </div>
               <div className="text-left">
                 <p className="font-medium text-gray-900">Zalo</p>
-                <p className="text-xs text-gray-600">Chat with us</p>
+                <p className="text-xs text-gray-600">{t('contact.chatWithUs')}</p>
               </div>
             </button>
             
@@ -89,7 +91,7 @@ Type: ${type}
                 </svg>
               </div>
               <div className="text-left">
-                <p className="font-medium text-gray-900">Email</p>
+                <p className="font-medium text-gray-900">{t('contact.email')}</p>
                 <p className="text-xs text-gray-600">contact@kanopy.vn</p>
               </div>
             </a>
@@ -98,12 +100,12 @@ Type: ${type}
 
         {/* Contact Form */}
         <form onSubmit={handleSubmit} className="p-6">
-          <h3 className="font-semibold text-gray-900 mb-4">Send us a message</h3>
+          <h3 className="font-semibold text-gray-900 mb-4">{t('contact.sendMessage')}</h3>
           
           <div className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Full Name *
+                {t('contact.fullName')} *
               </label>
               <input
                 type="text"
@@ -111,13 +113,13 @@ Type: ${type}
                 value={formData.name}
                 onChange={(e) => setFormData({...formData, name: e.target.value})}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Your full name"
+                placeholder={t('contact.fullName')}
               />
             </div>
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Email *
+                {t('contact.email')} *
               </label>
               <input
                 type="email"
@@ -131,20 +133,20 @@ Type: ${type}
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Company
+                {t('contact.company')}
               </label>
               <input
                 type="text"
                 value={formData.company}
                 onChange={(e) => setFormData({...formData, company: e.target.value})}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Your company name"
+                placeholder={t('contact.company')}
               />
             </div>
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Message *
+                {t('contact.message')} *
               </label>
               <textarea
                 required
@@ -153,8 +155,8 @@ Type: ${type}
                 onChange={(e) => setFormData({...formData, message: e.target.value})}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 placeholder={type === 'partner' 
-                  ? 'Tell us about your business and how you\'d like to partner with us...'
-                  : 'Tell us about your team size, needs, or any questions...'
+                  ? t('contact.partnerPlaceholder')
+                  : t('contact.generalPlaceholder')
                 }
               />
             </div>
@@ -166,13 +168,13 @@ Type: ${type}
               onClick={onClose}
               className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-200"
             >
-              Cancel
+              {t('contact.cancel')}
             </button>
             <button
               type="submit"
               className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
             >
-              Send Message
+              {t('contact.send')}
             </button>
           </div>
         </form>

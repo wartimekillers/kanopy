@@ -145,6 +145,17 @@ const resources = {
         description: 'Không có phí ẩn, không có chi phí thiết lập, không cam kết dài hạn. Bắt đầu với bản dùng thử miễn phí.',
         whatsIncluded: 'Những gì được bao gồm',
         commonQuestions: 'Câu hỏi thường gặp',
+        faq: {
+          changePlans: {
+            question: 'Tôi có thể thay đổi gói sau này không?',
+            answer: 'Có, bạn có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào.'
+          },
+          teamSize: {
+            question: 'Có yêu cầu về quy mô đội ngũ tối thiểu không?',
+            answer: 'Không, đội ngũ với bất kỳ quy mô nào đều có thể tham gia Kanopy, bắt đầu từ 10 nhân viên.'
+          },
+          viewAll: 'Xem tất cả câu hỏi thường gặp →'
+        },
         cta: {
           title: 'Sẵn sàng biến đổi phúc lợi nhân viên của bạn?',
           subtitle: 'Tham gia cùng hàng nghìn công ty đã sử dụng Kanopy'
@@ -764,6 +775,17 @@ const resources = {
         description: 'No hidden fees, no setup costs, no long-term commitments. Start with our free trial.',
         whatsIncluded: 'What\'s Included',
         commonQuestions: 'Common Questions',
+        faq: {
+          changePlans: {
+            question: 'Can I change plans later?',
+            answer: 'Yes, you can upgrade or downgrade your plan at any time.'
+          },
+          teamSize: {
+            question: 'Is there a minimum team size?',
+            answer: 'No, teams of any size can join Kanopy starting from 10 employees.'
+          },
+          viewAll: 'View all FAQs →'
+        },
         cta: {
           title: 'Ready to Transform Your Employee Benefits?',
           subtitle: 'Join thousands of companies already using Kanopy'

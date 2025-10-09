@@ -147,12 +147,11 @@ export default function Pricing({ onContactClick }) {
                 {t('pricing.whatsIncluded')}
               </h2>
             </Reveal>
-            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {features.map((featureKey, index) => (
+              {t('pricing.features', { returnObjects: true }).map((feature, index) => (
                 <Reveal key={index} delay={index * 50}>
                   <div className="flex items-center gap-3 p-4 bg-white rounded-xl">
-                    <span className="text-lg">{t(featureKey)}</span>
+                    <span className="text-lg">{feature}</span>
                   </div>
                 </Reveal>
               ))}
@@ -171,17 +170,17 @@ export default function Pricing({ onContactClick }) {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                 <div className="p-6 bg-gray-50 rounded-xl">
-                  <h3 className="font-semibold text-gray-900 mb-2">Can I change plans later?</h3>
-                  <p className="text-gray-600">Yes, you can upgrade or downgrade your plan at any time.</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">{t('pricing.faq.changePlans.question')}</h3>
+                  <p className="text-gray-600">{t('pricing.faq.changePlans.answer')}</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-xl">
-                  <h3 className="font-semibold text-gray-900 mb-2">Is there a minimum team size?</h3>
-                  <p className="text-gray-600">No, teams of any size can join Kanopy starting from 10 employees.</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">{t('pricing.faq.teamSize.question')}</h3>
+                  <p className="text-gray-600">{t('pricing.faq.teamSize.answer')}</p>
                 </div>
               </div>
               <div className="mt-8">
                 <Link to="/resources/faq" className="text-blue-600 hover:text-blue-700 font-medium">
-                  View all FAQs →
+                  {t('pricing.faq.viewAll')}
                 </Link>
               </div>
             </Reveal>

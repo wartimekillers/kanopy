@@ -1,31 +1,12 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import Reveal from '../components/Reveal'
 
-const stories = [
-  {
-    company: 'Café Chain',
-    result: 'Saved 75% welfare costs',
-    quote: 'Our staff now enjoy perks daily instead of random bonuses.',
-    industry: 'Food & Beverage',
-    employees: '150+ employees'
-  },
-  {
-    company: 'Tech Startup',
-    result: '+30% retention',
-    quote: 'Employees finally feel cared for.',
-    industry: 'Technology',
-    employees: '50+ employees'
-  },
-  {
-    company: 'Retail SME',
-    result: '0 admin stress',
-    quote: 'Kanopy automated everything — our HR is free again.',
-    industry: 'Retail',
-    employees: '100+ employees'
-  }
-]
-
 export default function Stories({ onContactClick }) {
+  const { t } = useTranslation()
+  
+  const stories = t('storiesPage.stories', { returnObjects: true })
+
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -34,13 +15,13 @@ export default function Stories({ onContactClick }) {
           <div className="max-w-4xl mx-auto text-center py-20">
             <Reveal>
               <h1 className="display-heading text-5xl lg:text-6xl mb-6">
-                Impact Stories
+                {t('storiesPage.hero.title')}
               </h1>
               <p className="subhead text-xl lg:text-2xl mb-8">
-                Real success stories
+                {t('storiesPage.hero.subtitle')}
               </p>
               <p className="muted-text text-lg max-w-2xl mx-auto">
-                See how companies like yours are transforming their employee benefits with Kanopy.
+                {t('storiesPage.hero.description')}
               </p>
             </Reveal>
           </div>
@@ -87,20 +68,32 @@ export default function Stories({ onContactClick }) {
           <div className="max-w-4xl mx-auto text-center">
             <Reveal>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8">
-                Proven Results
+                {t('storiesPage.results.title')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">75%</div>
-                  <p className="text-gray-600">Average cost savings</p>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">
+                    {t('storiesPage.results.stats.costSavings.value')}
+                  </div>
+                  <p className="text-gray-600">
+                    {t('storiesPage.results.stats.costSavings.label')}
+                  </p>
                 </div>
                 <div className="p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-emerald-600 mb-2">30%</div>
-                  <p className="text-gray-600">Increase in retention</p>
+                  <div className="text-3xl font-bold text-emerald-600 mb-2">
+                    {t('storiesPage.results.stats.retention.value')}
+                  </div>
+                  <p className="text-gray-600">
+                    {t('storiesPage.results.stats.retention.label')}
+                  </p>
                 </div>
                 <div className="p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">0</div>
-                  <p className="text-gray-600">Admin overhead</p>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">
+                    {t('storiesPage.results.stats.adminOverhead.value')}
+                  </div>
+                  <p className="text-gray-600">
+                    {t('storiesPage.results.stats.adminOverhead.label')}
+                  </p>
                 </div>
               </div>
             </Reveal>
@@ -114,16 +107,16 @@ export default function Stories({ onContactClick }) {
           <div className="max-w-4xl mx-auto text-center">
             <Reveal>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                Write Your Success Story
+                {t('storiesPage.cta.title')}
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                Join the companies already seeing amazing results
+                {t('storiesPage.cta.subtitle')}
               </p>
               <button 
                 onClick={() => onContactClick('trial')}
                 className="glass-cta px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Start Free Trial
+                {t('storiesPage.cta.button')}
               </button>
             </Reveal>
           </div>

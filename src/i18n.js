@@ -582,6 +582,60 @@ const resources = {
         }
       },
 
+      // Stories page
+      storiesPage: {
+        hero: {
+          title: 'Câu chuyện Tác động',
+          subtitle: 'Câu chuyện thành công thực tế',
+          description: 'Xem cách các công ty như của bạn đang biến đổi phúc lợi nhân viên với Kanopy.'
+        },
+        stories: [
+          {
+            company: 'Chuỗi Café',
+            result: 'Tiết kiệm 75% chi phí phúc lợi',
+            quote: 'Nhân viên của chúng tôi giờ đây tận hưởng phúc lợi hàng ngày thay vì tiền thưởng ngẫu nhiên.',
+            industry: 'Thực phẩm & Đồ uống',
+            employees: '150+ nhân viên'
+          },
+          {
+            company: 'Startup Công nghệ',
+            result: '+30% tỷ lệ giữ chân',
+            quote: 'Nhân viên cuối cùng cảm thấy được quan tâm.',
+            industry: 'Công nghệ',
+            employees: '50+ nhân viên'
+          },
+          {
+            company: 'Bán lẻ SME',
+            result: '0 căng thẳng quản lý',
+            quote: 'Kanopy tự động hóa mọi thứ — HR của chúng tôi lại được tự do.',
+            industry: 'Bán lẻ',
+            employees: '100+ nhân viên'
+          }
+        ],
+        results: {
+          title: 'Kết quả Đã được Chứng minh',
+          stats: {
+            costSavings: {
+              value: '75%',
+              label: 'Tiết kiệm chi phí trung bình'
+            },
+            retention: {
+              value: '30%',
+              label: 'Tăng tỷ lệ giữ chân'
+            },
+            adminOverhead: {
+              value: '0',
+              label: 'Chi phí quản lý'
+            }
+          }
+        },
+        cta: {
+          title: 'Viết Câu chuyện Thành công của Bạn',
+          subtitle: 'Tham gia các công ty đã thấy kết quả tuyệt vời',
+          button: 'Bắt đầu Dùng thử Miễn phí'
+        }
+      },
+
       // Blog page
       blogPage: {
         hero: {
@@ -1264,6 +1318,60 @@ const resources = {
         cta: {
           title: 'Join Our Mission',
           description: 'Be part of the movement to democratize employee benefits',
+          button: 'Start Free Trial'
+        }
+      },
+
+      // Stories page
+      storiesPage: {
+        hero: {
+          title: 'Impact Stories',
+          subtitle: 'Real success stories',
+          description: 'See how companies like yours are transforming their employee benefits with Kanopy.'
+        },
+        stories: [
+          {
+            company: 'Café Chain',
+            result: 'Saved 75% welfare costs',
+            quote: 'Our staff now enjoy perks daily instead of random bonuses.',
+            industry: 'Food & Beverage',
+            employees: '150+ employees'
+          },
+          {
+            company: 'Tech Startup',
+            result: '+30% retention',
+            quote: 'Employees finally feel cared for.',
+            industry: 'Technology',
+            employees: '50+ employees'
+          },
+          {
+            company: 'Retail SME',
+            result: '0 admin stress',
+            quote: 'Kanopy automated everything — our HR is free again.',
+            industry: 'Retail',
+            employees: '100+ employees'
+          }
+        ],
+        results: {
+          title: 'Proven Results',
+          stats: {
+            costSavings: {
+              value: '75%',
+              label: 'Average cost savings'
+            },
+            retention: {
+              value: '30%',
+              label: 'Increase in retention'
+            },
+            adminOverhead: {
+              value: '0',
+              label: 'Admin overhead'
+            }
+          }
+        },
+        cta: {
+          title: 'Write Your Success Story',
+          subtitle: 'Join the companies already seeing amazing results',
           button: 'Start Free Trial'
         }
       },

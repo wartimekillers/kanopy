@@ -2,7 +2,7 @@
   "name": "kanopy-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nico.github.io/tesai",
+  "homepage": "https://wartimekillers.github.io/kanopy",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

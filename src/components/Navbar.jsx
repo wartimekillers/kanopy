@@ -213,7 +213,7 @@ export default function Navbar({ onContactClick }) {
               {/* Mobile menu button */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="md:hidden p-3 rounded-lg bg-blue-100 text-gray-800 hover:text-gray-900 hover:bg-blue-200 transition-all duration-200 z-50 border border-blue-300"
+                className="lg:hidden p-3 rounded-lg bg-blue-100 text-gray-800 hover:text-gray-900 hover:bg-blue-200 transition-all duration-200 z-50 border border-blue-300"
                 aria-expanded={mobileMenuOpen}
                 aria-label="Toggle menu"
               >
@@ -296,8 +296,8 @@ export default function Navbar({ onContactClick }) {
       {/* Spacer to prevent content from hiding behind fixed navbar */}
       <div className="h-16"></div>
 
-      {/* Fixed Language Switcher - Right Side (Hidden on Mobile) */}
-      <div className="hidden md:block fixed top-4 right-4 z-50">
+      {/* Fixed Language Switcher - Right Side (Hidden when mobile menu is available) */}
+      <div className="hidden lg:block fixed top-4 right-4 z-50">
         <button
           onClick={toggleLanguage}
           className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 bg-white/90 hover:bg-white backdrop-blur-xl border border-gray-200/50 hover:border-gray-300/70 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"

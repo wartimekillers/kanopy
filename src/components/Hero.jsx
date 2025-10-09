@@ -60,15 +60,15 @@ export default function Hero({ onContactClick }) {
           <div className="space-y-8">
             <Reveal>
               <div className="space-y-6">
-                <h1 className="display-heading text-5xl lg:text-7xl leading-tight" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
+                <h1 className="text-white text-5xl lg:text-7xl leading-tight font-bold" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
                   {t('hero.title')}
                 </h1>
                 
-                <p className="subhead text-xl lg:text-2xl max-w-2xl" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.4)' }}>
+                <p className="text-white text-xl lg:text-2xl max-w-2xl font-medium" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>
                   {t('hero.subtitle')}
                 </p>
                 
-                <p className="muted-text text-lg max-w-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.3)' }}>
+                <p className="text-white text-lg max-w-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.6)' }}>
                   {t('hero.description')}
                 </p>
               </div>

@@ -3,65 +3,39 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import Reveal from '../components/Reveal'
 
-const plans = [
-  {
-    nameKey: 'pricing.plans.launch.name',
-    priceKey: 'pricing.plans.launch.price',
-    periodKey: 'pricing.plans.launch.period',
-    descriptionKey: 'pricing.plans.launch.description',
-    featuresKeys: [
-      'pricing.plans.launch.features.0',
-      'pricing.plans.launch.features.1',
-      'pricing.plans.launch.features.2',
-      'pricing.plans.launch.features.3',
-      'pricing.plans.launch.features.4'
-    ],
-    highlighted: true,
-    ctaKey: 'pricing.plans.launch.cta'
-  },
-  {
-    nameKey: 'pricing.plans.standard.name',
-    priceKey: 'pricing.plans.standard.price',
-    periodKey: 'pricing.plans.standard.period',
-    descriptionKey: 'pricing.plans.standard.description',
-    featuresKeys: [
-      'pricing.plans.standard.features.0',
-      'pricing.plans.standard.features.1',
-      'pricing.plans.standard.features.2',
-      'pricing.plans.standard.features.3',
-      'pricing.plans.standard.features.4'
-    ],
-    highlighted: false,
-    ctaKey: 'pricing.plans.standard.cta'
-  },
-  {
-    nameKey: 'pricing.plans.enterprise.name',
-    priceKey: 'pricing.plans.enterprise.price',
-    periodKey: 'pricing.plans.enterprise.period',
-    descriptionKey: 'pricing.plans.enterprise.description',
-    featuresKeys: [
-      'pricing.plans.enterprise.features.0',
-      'pricing.plans.enterprise.features.1',
-      'pricing.plans.enterprise.features.2',
-      'pricing.plans.enterprise.features.3',
-      'pricing.plans.enterprise.features.4'
-    ],
-    highlighted: false,
-    ctaKey: 'pricing.plans.enterprise.cta'
-  }
-]
-
-const features = [
-  'pricing.features.0',
-  'pricing.features.1',
-  'pricing.features.2',
-  'pricing.features.3',
-  'pricing.features.4',
-  'pricing.features.5'
-]
-
 export default function Pricing({ onContactClick }) {
   const { t } = useTranslation()
+
+  const plans = [
+    {
+      name: t('pricing.plans.launch.name'),
+      price: t('pricing.plans.launch.price'),
+      period: t('pricing.plans.launch.period'),
+      description: t('pricing.plans.launch.description'),
+      features: t('pricing.plans.launch.features', { returnObjects: true }),
+      highlighted: true,
+      cta: t('pricing.plans.launch.cta'),
+      popular: t('pricing.plans.launch.popular'),
+    },
+    {
+      name: t('pricing.plans.standard.name'),
+      price: t('pricing.plans.standard.price'),
+      period: t('pricing.plans.standard.period'),
+      description: t('pricing.plans.standard.description'),
+      features: t('pricing.plans.standard.features', { returnObjects: true }),
+      highlighted: false,
+      cta: t('pricing.plans.standard.cta'),
+    },
+    {
+      name: t('pricing.plans.enterprise.name'),
+      price: t('pricing.plans.enterprise.price'),
+      period: t('pricing.plans.enterprise.period'),
+      description: t('pricing.plans.enterprise.description'),
+      features: t('pricing.plans.enterprise.features', { returnObjects: true }),
+      highlighted: false,
+      cta: t('pricing.plans.enterprise.cta'),
+    }
+  ]
   
   return (
     <div className="pt-16">
@@ -99,25 +73,25 @@ export default function Pricing({ onContactClick }) {
                     {plan.highlighted && (
                       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                         <span className="bg-gradient-to-r from-blue-600 to-emerald-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                          {t('pricing.plans.launch.popular')}
+                          {plan.popular}
                         </span>
                       </div>
                     )}
                     <div className="text-center mb-8">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">{t(plan.nameKey)}</h3>
-                      <p className="text-gray-600 mb-4">{t(plan.descriptionKey)}</p>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
+                      <p className="text-gray-600 mb-4">{plan.description}</p>
                       <div className="mb-2">
-                        <span className="text-4xl font-bold text-gray-900">{t(plan.priceKey)}</span>
+                        <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
                       </div>
-                      <p className="text-gray-600">{t(plan.periodKey)}</p>
+                      <p className="text-gray-600">{plan.period}</p>
                     </div>
                     <ul className="space-y-4 mb-8">
-                      {plan.featuresKeys.map((featureKey, i) => (
+                      {plan.features.map((feature, i) => (
                         <li key={i} className="flex items-center gap-3">
                           <svg className="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
-                          <span className="text-gray-700">{t(featureKey)}</span>
+                          <span className="text-gray-700">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -128,7 +102,7 @@ export default function Pricing({ onContactClick }) {
                         ? 'glass-cta text-white shadow-lg hover:shadow-xl'
                         : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                     }`}>
-                      {t(plan.ctaKey)}
+                      {plan.cta}
                     </button>
                   </div>
                 </Reveal>

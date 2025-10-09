@@ -202,12 +202,29 @@ export default function Navbar({ onContactClick }) {
             </div>
 
             {/* CTA Button & Mobile Toggle */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
               <button
                 onClick={() => onContactClick('trial')}
                 className="hidden md:inline-flex items-center px-6 py-2.5 bg-gradient-to-r from-blue-600 to-emerald-600 text-white text-[15px] font-semibold rounded-full hover:from-blue-700 hover:to-emerald-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
                 {t('hero.startTrial')}
+              </button>
+
+              {/* Mobile Language Switcher - Always visible on mobile */}
+              <button
+                onClick={toggleLanguage}
+                className="lg:hidden flex items-center px-2 py-1.5 text-xs font-medium text-gray-700 hover:text-gray-900 bg-white/80 hover:bg-white border border-gray-200/50 hover:border-gray-300/70 rounded-md shadow-sm hover:shadow transition-all duration-200"
+                title={i18n.language === 'vi' ? 'Switch to English' : 'Chuyển sang Tiếng Việt'}
+              >
+                {i18n.language === 'vi' ? (
+                  <span className="flex items-center gap-1">
+                    🇻🇳 VI
+                  </span>
+                ) : (
+                  <span className="flex items-center gap-1">
+                    🇺🇸 EN
+                  </span>
+                )}
               </button>
 
               {/* Mobile menu button */}

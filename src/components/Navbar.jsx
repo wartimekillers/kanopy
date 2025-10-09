@@ -213,14 +213,14 @@ export default function Navbar({ onContactClick }) {
               {/* Mobile menu button */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="md:hidden p-2 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100/70 transition-all duration-200 z-50"
+                className="md:hidden p-3 rounded-lg bg-blue-100 text-gray-800 hover:text-gray-900 hover:bg-blue-200 transition-all duration-200 z-50 border border-blue-300"
                 aria-expanded={mobileMenuOpen}
                 aria-label="Toggle menu"
               >
-                <div className="w-6 h-6 flex flex-col justify-center items-center">
-                  <span className={`block w-5 h-0.5 bg-current transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-0.5' : '-translate-y-1'}`}></span>
-                  <span className={`block w-5 h-0.5 bg-current transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                  <span className={`block w-5 h-0.5 bg-current transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-0.5' : 'translate-y-1'}`}></span>
+                <div className="w-7 h-7 flex flex-col justify-center items-center">
+                  <span className={`block w-6 h-1 bg-current transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-1' : '-translate-y-1'}`}></span>
+                  <span className={`block w-6 h-1 bg-current transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : 'opacity-100'}`}></span>
+                  <span className={`block w-6 h-1 bg-current transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-1'}`}></span>
                 </div>
               </button>
             </div>

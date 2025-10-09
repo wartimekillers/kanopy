@@ -118,7 +118,6 @@ body {
 
 /* Page backgrounds */
 .page-hero-bg {
-  background: var(--bg-subtle);
   min-height: 60vh;
   display: flex;
   align-items: center;

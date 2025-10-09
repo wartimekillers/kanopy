@@ -48,30 +48,27 @@ export default function Hero({ onContactClick }) {
     <section 
       className="hero-full relative overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(74, 144, 226, 0.05), rgba(126, 214, 167, 0.05)), url(${heroBackgroundImage})`,
+        backgroundImage: `url(${heroBackgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}
     >
-      {/* Background overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white/90 via-white/70 to-white/90"></div>
-      
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-20">
           {/* Content */}
           <div className="space-y-8">
             <Reveal>
               <div className="space-y-6">
-                <h1 className="display-heading text-5xl lg:text-7xl leading-tight">
+                <h1 className="display-heading text-5xl lg:text-7xl leading-tight" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                   {t('hero.title')}
                 </h1>
                 
-                <p className="subhead text-xl lg:text-2xl max-w-2xl">
+                <p className="subhead text-xl lg:text-2xl max-w-2xl" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.4)' }}>
                   {t('hero.subtitle')}
                 </p>
                 
-                <p className="muted-text text-lg max-w-xl">
+                <p className="muted-text text-lg max-w-xl" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.3)' }}>
                   {t('hero.description')}
                 </p>
               </div>

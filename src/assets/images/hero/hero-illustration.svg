@@ -1,0 +1,41 @@
+<!-- This is a placeholder SVG for hero-illustration.png -->
+<!-- Replace this file with a real PNG illustration following the IMAGE_GUIDE.md -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7ED6A7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#heroGrad)" rx="24"/>
+  
+  <!-- Platform illustration elements -->
+  <rect x="100" y="100" width="600" height="80" fill="rgba(255,255,255,0.9)" rx="12"/>
+  <rect x="120" y="120" width="200" height="40" fill="#4A90E2" rx="8"/>
+  <rect x="340" y="120" width="150" height="40" fill="#7ED6A7" rx="8"/>
+  <rect x="510" y="120" width="170" height="40" fill="#8B5CF6" rx="8"/>
+  
+  <!-- Cards/Features -->
+  <rect x="100" y="220" width="180" height="120" fill="rgba(255,255,255,0.9)" rx="12"/>
+  <rect x="300" y="220" width="180" height="120" fill="rgba(255,255,255,0.9)" rx="12"/>
+  <rect x="500" y="220" width="180" height="120" fill="rgba(255,255,255,0.9)" rx="12"/>
+  
+  <!-- Icons in cards -->
+  <circle cx="190" cy="260" r="20" fill="#4A90E2"/>
+  <circle cx="390" cy="260" r="20" fill="#7ED6A7"/>
+  <circle cx="590" cy="260" r="20" fill="#F59E0B"/>
+  
+  <!-- Chart/Analytics section -->
+  <rect x="100" y="380" width="400" height="160" fill="rgba(255,255,255,0.9)" rx="12"/>
+  <polyline points="130,480 180,460 230,440 280,420 330,400 380,380 430,360 470,340" 
+            fill="none" stroke="#4A90E2" stroke-width="4"/>
+  <polyline points="130,500 180,490 230,480 280,460 330,450 380,440 430,420 470,400" 
+            fill="none" stroke="#7ED6A7" stroke-width="4"/>
+  
+  <!-- Text labels -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        fill="#4A90E2" text-anchor="middle">Employee Engagement Platform</text>
+</svg>

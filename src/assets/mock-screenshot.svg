@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <linearGradient id="mgrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#4A90E2" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#7ED6A7" stop-opacity="0.14"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="#fff" stroke="#e8f1ff" />
+  <rect x="16" y="18" width="328" height="604" rx="18" fill="url(#mgrad)" />
+  <rect x="30" y="36" width="300" height="20" rx="8" fill="#fff" />
+  <rect x="30" y="66" width="220" height="140" rx="12" fill="#fff" />
+  <rect x="30" y="218" width="300" height="12" rx="6" fill="#fff" opacity="0.9" />
+  <rect x="30" y="238" width="260" height="12" rx="6" fill="#fff" opacity="0.9" />
+  <rect x="30" y="270" width="300" height="240" rx="12" fill="#fff" opacity="0.95" />
+  <g transform="translate(30,520)">
+    <rect width="120" height="36" rx="8" fill="#4A90E2" />
+    <rect x="136" y="0" width="120" height="36" rx="8" fill="#7ED6A7" />
+  </g>
+</svg>

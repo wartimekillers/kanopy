@@ -228,8 +228,8 @@ export default function Navbar({ onContactClick }) {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden transition-all duration-300 overflow-hidden ${
-          mobileMenuOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'
+        <div className={`lg:hidden transition-all duration-300 ${
+          mobileMenuOpen ? 'block' : 'hidden'
         }`}>
           <div className="bg-white/95 backdrop-blur-xl border-t border-gray-200/20">
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-1">
@@ -237,6 +237,7 @@ export default function Navbar({ onContactClick }) {
                 <div key={item.label} className="space-y-1">
                   <Link
                     to={item.path}
+                    onClick={() => setMobileMenuOpen(false)}
                     className={`block px-4 py-3 text-[17px] font-medium rounded-xl transition-all duration-200 ${
                       isActivePath(item.path)
                         ? 'text-blue-600 bg-blue-50'
@@ -253,6 +254,7 @@ export default function Navbar({ onContactClick }) {
                         <Link
                           key={subItem.label}
                           to={subItem.path}
+                          onClick={() => setMobileMenuOpen(false)}
                           className="block px-4 py-2 text-[15px] text-gray-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200"
                         >
                           {subItem.label}
@@ -267,7 +269,10 @@ export default function Navbar({ onContactClick }) {
               <div className="pt-4 border-t border-gray-200/30 space-y-3">
                 {/* Mobile Language Switcher */}
                 <button
-                  onClick={toggleLanguage}
+                  onClick={() => {
+                    toggleLanguage()
+                    setMobileMenuOpen(false)
+                  }}
                   className="block w-full px-6 py-3 text-gray-700 bg-gray-100/70 text-center text-[15px] font-medium rounded-xl"
                 >
                   {i18n.language === 'vi' ? '🇺🇸 Switch to English' : '🇻🇳 Chuyển sang Tiếng Việt'}
@@ -291,8 +296,8 @@ export default function Navbar({ onContactClick }) {
       {/* Spacer to prevent content from hiding behind fixed navbar */}
       <div className="h-16"></div>
 
-      {/* Fixed Language Switcher - Right Side */}
-      <div className="fixed top-4 right-4 z-50">
+      {/* Fixed Language Switcher - Right Side (Hidden on Mobile) */}
+      <div className="hidden md:block fixed top-4 right-4 z-50">
         <button
           onClick={toggleLanguage}
           className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 bg-white/90 hover:bg-white backdrop-blur-xl border border-gray-200/50 hover:border-gray-300/70 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"

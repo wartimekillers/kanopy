@@ -5,59 +5,59 @@ import Reveal from '../components/Reveal'
 
 const plans = [
   {
-    name: 'Launch Offer',
-    price: '0 VND',
-    period: 'Free 1-year trial',
-    description: 'Perfect for founding members',
-    features: [
-      'Full access to all perks',
-      'Analytics dashboard',
-      'Community events',
-      'Email support',
-      'No setup fees'
+    nameKey: 'pricing.plans.launch.name',
+    priceKey: 'pricing.plans.launch.price',
+    periodKey: 'pricing.plans.launch.period',
+    descriptionKey: 'pricing.plans.launch.description',
+    featuresKeys: [
+      'pricing.plans.launch.features.0',
+      'pricing.plans.launch.features.1',
+      'pricing.plans.launch.features.2',
+      'pricing.plans.launch.features.3',
+      'pricing.plans.launch.features.4'
     ],
     highlighted: true,
-    cta: 'Start Free Trial'
+    ctaKey: 'pricing.plans.launch.cta'
   },
   {
-    name: 'Standard Plan',
-    price: '25,000 VND',
-    period: 'per employee / month',
-    description: 'Full access to perks & analytics',
-    features: [
-      'All partner benefits',
-      'Real-time analytics',
-      'Priority support',
-      'Custom reporting',
-      'Cancel anytime'
+    nameKey: 'pricing.plans.standard.name',
+    priceKey: 'pricing.plans.standard.price',
+    periodKey: 'pricing.plans.standard.period',
+    descriptionKey: 'pricing.plans.standard.description',
+    featuresKeys: [
+      'pricing.plans.standard.features.0',
+      'pricing.plans.standard.features.1',
+      'pricing.plans.standard.features.2',
+      'pricing.plans.standard.features.3',
+      'pricing.plans.standard.features.4'
     ],
     highlighted: false,
-    cta: 'Get Started'
+    ctaKey: 'pricing.plans.standard.cta'
   },
   {
-    name: 'Enterprise Plan',
-    price: 'Custom',
-    period: 'Contact for quote',
-    description: 'Tailored for 500+ employees',
-    features: [
-      'Custom integrations',
-      'Dedicated support',
-      'Advanced analytics',
-      'Custom partnerships',
-      'SLA guarantees'
+    nameKey: 'pricing.plans.enterprise.name',
+    priceKey: 'pricing.plans.enterprise.price',
+    periodKey: 'pricing.plans.enterprise.period',
+    descriptionKey: 'pricing.plans.enterprise.description',
+    featuresKeys: [
+      'pricing.plans.enterprise.features.0',
+      'pricing.plans.enterprise.features.1',
+      'pricing.plans.enterprise.features.2',
+      'pricing.plans.enterprise.features.3',
+      'pricing.plans.enterprise.features.4'
     ],
     highlighted: false,
-    cta: 'Contact Sales'
+    ctaKey: 'pricing.plans.enterprise.cta'
   }
 ]
 
 const features = [
-  '✅ No setup fee',
-  '✅ No hidden charges', 
-  '✅ Cancel anytime',
-  '✅ 24/7 support',
-  '✅ Mobile app included',
-  '✅ Regular partner additions'
+  'pricing.features.0',
+  'pricing.features.1',
+  'pricing.features.2',
+  'pricing.features.3',
+  'pricing.features.4',
+  'pricing.features.5'
 ]
 
 export default function Pricing({ onContactClick }) {
@@ -99,31 +99,28 @@ export default function Pricing({ onContactClick }) {
                     {plan.highlighted && (
                       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                         <span className="bg-gradient-to-r from-blue-600 to-emerald-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                          Most Popular
+                          {t('pricing.plans.launch.popular')}
                         </span>
                       </div>
                     )}
-                    
                     <div className="text-center mb-8">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                      <p className="text-gray-600 mb-4">{plan.description}</p>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">{t(plan.nameKey)}</h3>
+                      <p className="text-gray-600 mb-4">{t(plan.descriptionKey)}</p>
                       <div className="mb-2">
-                        <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
+                        <span className="text-4xl font-bold text-gray-900">{t(plan.priceKey)}</span>
                       </div>
-                      <p className="text-gray-600">{plan.period}</p>
+                      <p className="text-gray-600">{t(plan.periodKey)}</p>
                     </div>
-
                     <ul className="space-y-4 mb-8">
-                      {plan.features.map((feature, i) => (
+                      {plan.featuresKeys.map((featureKey, i) => (
                         <li key={i} className="flex items-center gap-3">
                           <svg className="w-5 h-5 text-emerald-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
-                          <span className="text-gray-700">{feature}</span>
+                          <span className="text-gray-700">{t(featureKey)}</span>
                         </li>
                       ))}
                     </ul>
-
                     <button 
                       onClick={() => onContactClick('trial')}
                       className={`w-full py-4 rounded-xl font-semibold transition-all duration-300 ${
@@ -131,7 +128,7 @@ export default function Pricing({ onContactClick }) {
                         ? 'glass-cta text-white shadow-lg hover:shadow-xl'
                         : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                     }`}>
-                      {plan.cta}
+                      {t(plan.ctaKey)}
                     </button>
                   </div>
                 </Reveal>
@@ -152,10 +149,10 @@ export default function Pricing({ onContactClick }) {
             </Reveal>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {features.map((feature, index) => (
+              {features.map((featureKey, index) => (
                 <Reveal key={index} delay={index * 50}>
                   <div className="flex items-center gap-3 p-4 bg-white rounded-xl">
-                    <span className="text-lg">{feature}</span>
+                    <span className="text-lg">{t(featureKey)}</span>
                   </div>
                 </Reveal>
               ))}

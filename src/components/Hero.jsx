@@ -4,7 +4,7 @@ import ParallaxImage from './ParallaxImage'
 import Reveal from './Reveal'
 
 // Import placeholder images - these will fallback to SVG if real images don't load
-import heroBackgroundImage from '../assets/images/hero/hero-background.jpeg'
+import heroBackgroundImage from '../assets/images/hero/hero-background.jpg'
 import heroIllustrationSvg from '../assets/images/hero/hero-illustration.svg'
 import dashboardPreviewSvg from '../assets/images/hero/dashboard-preview.svg'
 

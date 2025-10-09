@@ -213,7 +213,7 @@ export default function Navbar({ onContactClick }) {
               {/* Mobile menu button */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="lg:hidden p-2 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100/70 transition-all duration-200"
+                className="md:hidden p-2 rounded-lg text-gray-700 hover:text-gray-900 hover:bg-gray-100/70 transition-all duration-200 z-50"
                 aria-expanded={mobileMenuOpen}
                 aria-label="Toggle menu"
               >

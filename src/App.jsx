@@ -1,5 +1,5 @@
 import React, { Suspense, lazy, useState } from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import ContactFooter from './components/ContactFooter'
 import ContactModal from './components/ContactModal'
@@ -36,7 +36,7 @@ export default function App(){
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="font-sans text-gray-900">
         <Navbar onContactClick={openContactModal} />
         <Suspense fallback={<div className="container py-20 text-center">
@@ -86,6 +86,6 @@ export default function App(){
           type={contactModal.type}
         />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

@@ -49,15 +49,15 @@ const resources = {
       benefits: {
         title: '3 Lợi ích chính',
         predictableBudgets: {
-          title: 'Ngân sách dự trù',
+          title: 'Tối ưu hóa ngân sách',
           description: 'Thay chi tiêu phúc lợi rời rạc bằng gói cố định theo tháng.'
         },
         dailyCare: {
-          title: 'Chăm sóc hàng ngày',
+          title: 'Trải nghiệm nhân viên chất lượng',
           description: 'Phúc lợi hàng ngày mà đối tượng thực sự thích.'
         },
         strongerBrand: {
-          title: 'Thương hiệu tuyển dụng mạnh hơn',
+          title: 'Nâng tầm thương hiệu nhà tuyển dụng',
           description: 'Cạnh tranh ngang tầm với doanh nghiệp lớn bằng phúc lợi có ý nghĩa.'
         }
       },
@@ -146,11 +146,11 @@ const resources = {
         whatsIncluded: 'Bao gồm',
         commonQuestions: 'Câu hỏi thường gặp',
         plans: {
-          launch: {
-            name: 'Ưu đãi ra mắt',
-            price: '0 VND',
-            period: 'miễn phí 1 năm',
-            description: 'Dùng thử miễn phí 1 năm cho thành viên sáng lập',
+          student: {
+            name: 'Gói Sinh viên',
+            price: '25.000 VND',
+            period: 'mỗi nhân viên/tháng',
+            description: 'Gói ưu đãi dành cho sinh viên và startup',
             features: [
               'Truy cập đầy đủ mạng lưới đối tác',
               'Dashboard phân tích cơ bản',
@@ -158,16 +158,16 @@ const resources = {
               'Onboarding miễn phí',
               'Không giới hạn giao dịch đổi ưu đãi'
             ],
-            cta: 'Bắt đầu dùng thử miễn phí',
+            cta: 'Bắt đầu ngay',
             popular: 'Phổ biến nhất'
           },
           standard: {
             name: 'Gói Tiêu chuẩn',
-            price: '25.000 VND',
+            price: '100.000 VND',
             period: 'mỗi nhân viên/tháng',
             description: 'Truy cập đầy đủ phúc lợi & dashboard phân tích',
             features: [
-              'Tất cả tính năng Launch',
+              'Tất cả tính năng Sinh viên',
               'Dashboard phân tích nâng cao',
               'Hỗ trợ ưu tiên',
               'Báo cáo tùy chỉnh',
@@ -177,8 +177,8 @@ const resources = {
           },
           enterprise: {
             name: 'Gói Doanh nghiệp',
-            price: 'Liên hệ',
-            period: 'để báo giá',
+            price: 'Tùy chỉnh',
+            period: 'theo yêu cầu',
             description: 'Tối ưu cho đội ngũ 500+ nhân viên',
             features: [
               'Tất cả tính năng Standard',
@@ -257,8 +257,8 @@ const resources = {
           description: 'Đăng ký công ty và mời nhân viên.'
         },
         step2: {
-          title: 'Chọn gói',
-          description: 'Phí cố định 25.000 VND/nhân viên/tháng.'
+          title: 'Phí cố định',
+          description: 'Mô hình phí đơn giản theo số nhân viên.'
         },
         step3: {
           title: 'Kích hoạt phúc lợi',
@@ -296,7 +296,7 @@ const resources = {
 
       forEmployees: {
         title: 'Phúc lợi hàng ngày mang lại giá trị thật.',
-        savings: 'Nhân viên có thể tiết kiệm tới 500.000 VND mỗi tháng với Kanopy.',
+        savings: 'Nhân viên có thể tiết kiệm tới 2.000.000 VND mỗi tháng với Kanopy.',
         categories: {
           foodBeverage: {
             title: 'Ăn uống & Đồ uống',
@@ -321,7 +321,7 @@ const resources = {
         title: 'Sứ mệnh & Tầm nhìn',
         description: 'Làm cho việc chăm sóc nhân viên trở nên đơn giản, phải chăng và mạnh mẽ — giúp mọi công ty chăm sóc như một tập đoàn. Xây dựng mạng lưới phúc lợi chia sẻ đầu tiên của Việt Nam cho SME.',
         stats: {
-          employees: 'nhân viên trong mạng lưới',
+          employees: '500.000+ nhân viên trong mạng lưới',
           discounts: 'giảm giá trung bình từ nhà cung cấp',
           value: 'giá trị nhân viên trên mỗi $1 chi tiêu'
         }
@@ -331,19 +331,19 @@ const resources = {
         title: 'Bảng giá',
         note: 'Lưu ý: Không có phí thiết lập. Không có phí ẩn. Hủy bất cứ lúc nào.',
         plans: {
-          launch: {
-            name: 'Ưu đãi Ra mắt',
-            price: '0 VND',
-            description: 'Dùng thử miễn phí 1 năm cho thành viên sáng lập'
+          student: {
+            name: 'Gói Sinh viên',
+            price: '25,000 VND / nhân viên / tháng',
+            description: 'Gói ưu đãi dành cho sinh viên và startup'
           },
           standard: {
             name: 'Gói Tiêu chuẩn',
-            price: '25,000 VND / nhân viên / tháng',
+            price: '100,000 VND / nhân viên / tháng',
             description: 'Truy cập đầy đủ phúc lợi & dashboard phân tích'
           },
           enterprise: {
             name: 'Gói Doanh nghiệp',
-            price: 'Liên hệ để báo giá',
+            price: 'Tùy chỉnh theo yêu cầu',
             description: 'Tùy chỉnh cho 500+ nhân viên'
           }
         }
@@ -360,8 +360,8 @@ const resources = {
             description: 'Đăng ký công ty và giới thiệu nhân viên.'
           },
           step2: {
-            title: 'Chọn Gói',
-            description: 'Phí cố định 25,000 VND mỗi nhân viên/tháng.'
+            title: 'Phí cố định',
+            description: 'Mô hình phí đơn giản theo số nhân viên.'
           },
           step3: {
             title: 'Kích hoạt Phúc lợi',
@@ -441,7 +441,7 @@ const resources = {
           }
         },
         savings: {
-          title: 'Tiết kiệm tới 500,000 VND',
+          title: 'Tiết kiệm tới 2,000,000 VND',
           description: 'Nhân viên tiết kiệm hàng tháng thông qua phúc lợi Kanopy',
           cta: 'Xem tất cả Phúc lợi'
         }
@@ -566,7 +566,7 @@ const resources = {
         },
         stats: {
           employees: {
-            label: 'nhân viên trong mạng lưới'
+            label: '500.000+ nhân viên trong mạng lưới'
           },
           discounts: {
             label: 'giảm giá trung bình từ nhà cung cấp'
@@ -789,15 +789,15 @@ const resources = {
       benefits: {
         title: '3 Key Benefits',
         predictableBudgets: {
-          title: 'Predictable Budgets',
+          title: 'Budget Optimization',
           description: 'Replace random welfare spending with simple monthly plans.'
         },
         dailyCare: {
-          title: 'Daily Employee Care',
+          title: 'Quality Employee Experience',
           description: 'Provide everyday benefits your team actually enjoys.'
         },
         strongerBrand: {
-          title: 'Stronger Employer Brand',
+          title: 'Enhanced Employer Brand',
           description: 'Compete with big companies by offering meaningful perks.'
         }
       },
@@ -886,11 +886,11 @@ const resources = {
         whatsIncluded: 'What\'s Included',
         commonQuestions: 'Common Questions',
         plans: {
-          launch: {
-            name: 'Launch Offer',
-            price: '0 VND',
-            period: 'free for 1 year',
-            description: 'Free 1-year trial for founding members',
+          student: {
+            name: 'Student Plan',
+            price: '25,000 VND',
+            period: 'per employee/month',
+            description: 'Special offer for students and startups',
             features: [
               'Full access to partner network',
               'Basic analytics dashboard',
@@ -898,16 +898,16 @@ const resources = {
               'Free onboarding',
               'Unlimited redemptions'
             ],
-            cta: 'Start Free Trial',
+            cta: 'Get Started',
             popular: 'Most Popular'
           },
           standard: {
             name: 'Standard Plan',
-            price: '25,000 VND',
+            price: '100,000 VND',
             period: 'per employee/month',
             description: 'Full access to perks & analytics dashboard',
             features: [
-              'All Launch features',
+              'All Student features',
               'Advanced analytics dashboard',
               'Priority support',
               'Custom reporting',
@@ -917,8 +917,8 @@ const resources = {
           },
           enterprise: {
             name: 'Enterprise Plan',
-            price: 'Contact',
-            period: 'for quote',
+            price: 'Custom',
+            period: 'pricing',
             description: 'Tailored for 500+ employees',
             features: [
               'All Standard features',
@@ -997,8 +997,8 @@ const resources = {
           description: 'Register your company and onboard employees.'
         },
         step2: {
-          title: 'Choose a Plan',
-          description: 'Flat fee of 25,000 VND per employee/month.'
+          title: 'Flat Fee',
+          description: 'Simple per-employee pricing model.'
         },
         step3: {
           title: 'Activate Benefits',
@@ -1036,7 +1036,7 @@ const resources = {
 
       forEmployees: {
         title: 'Everyday Perks that Truly Matter.',
-        savings: 'Employees save up to 500,000 VND monthly through Kanopy perks.',
+        savings: 'Employees save up to 2,000,000 VND monthly through Kanopy perks.',
         categories: {
           foodBeverage: {
             title: 'Food & Beverage',
@@ -1061,7 +1061,7 @@ const resources = {
         title: 'Mission & Vision',
         description: 'To make employee care simple, affordable, and powerful — helping every company care like a corporation. Build Vietnam\'s first shared benefits network for SMEs.',
         stats: {
-          employees: 'employees in network',
+          employees: '500,000+ employees in network',
           discounts: 'average vendor discounts',
           value: 'employee value per $1 spent'
         }
@@ -1071,19 +1071,19 @@ const resources = {
         title: 'Pricing',
         note: 'Note: No setup fee. No hidden charges. Cancel anytime.',
         plans: {
-          launch: {
-            name: 'Launch Offer',
-            price: '0 VND',
-            description: 'Free 1-year trial for founding members'
+          student: {
+            name: 'Student Plan',
+            price: '25,000 VND / employee / month',
+            description: 'Special offer for students and startups'
           },
           standard: {
             name: 'Standard Plan',
-            price: '25,000 VND / employee / month',
+            price: '100,000 VND / employee / month',
             description: 'Full access to perks & analytics dashboard'
           },
           enterprise: {
             name: 'Enterprise Plan',
-            price: 'Contact for quote',
+            price: 'Custom pricing on request',
             description: 'Tailored for 500+ employees'
           }
         }
@@ -1100,8 +1100,8 @@ const resources = {
             description: 'Register your company and onboard employees.'
           },
           step2: {
-            title: 'Choose a Plan',
-            description: 'Flat fee of 25,000 VND per employee/month.'
+            title: 'Flat Fee',
+            description: 'Simple per-employee pricing model.'
           },
           step3: {
             title: 'Activate Benefits',
@@ -1181,7 +1181,7 @@ const resources = {
           }
         },
         savings: {
-          title: 'Save up to 500,000 VND',
+          title: 'Save up to 2,000,000 VND',
           description: 'Employees save monthly through Kanopy perks',
           cta: 'See All Benefits'
         }
@@ -1306,7 +1306,7 @@ const resources = {
         },
         stats: {
           employees: {
-            label: 'employees in network'
+            label: '500,000+ employees in network'
           },
           discounts: {
             label: 'average vendor discounts'

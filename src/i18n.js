@@ -36,12 +36,12 @@ const resources = {
       
       // Hero section
       hero: {
-        title: 'Gắn kết. Giữ chân. Thưởng.',
+        title: 'Engage. Retain. Reward.',
         subtitle: 'Phúc lợi nhân viên phải chăng cho mọi doanh nghiệp.',
-        description: 'Kanopy giúp doanh nghiệp vừa và nhỏ cung cấp phúc lợi hàng ngày và sức khỏe như các tập đoàn lớn — dự đoán được, phải chăng và dễ dàng.',
+        description: 'Kanopy giúp doanh nghiệp nhỏ và vừa mang đến phúc lợi hàng ngày và chăm sóc sức khỏe như các tập đoàn lớn — dự trù, tiết kiệm và đơn giản.',
         startTrial: 'Bắt đầu dùng thử miễn phí',
         contactUs: 'Liên hệ với chúng tôi',
-        keyBenefits: '3 Lợi ích chính',
+        keyBenefits: '3 lợi ích chính',
         scrollToExplore: 'Cuộn để khám phá'
       },
 
@@ -49,25 +49,25 @@ const resources = {
       benefits: {
         title: '3 Lợi ích chính',
         predictableBudgets: {
-          title: 'Ngân sách Dự đoán được',
-          description: 'Thay thế chi tiêu phúc lợi ngẫu nhiên bằng gói hàng tháng đơn giản.'
+          title: 'Ngân sách dự trù',
+          description: 'Thay chi tiêu phúc lợi rời rạc bằng gói cố định theo tháng.'
         },
         dailyCare: {
-          title: 'Chăm sóc Nhân viên Hàng ngày',
-          description: 'Cung cấp phúc lợi hàng ngày mà đội ngũ của bạn thực sự thích.'
+          title: 'Chăm sóc hàng ngày',
+          description: 'Phúc lợi hàng ngày mà đối tượng thực sự thích.'
         },
         strongerBrand: {
-          title: 'Thương hiệu Nhà tuyển dụng Mạnh mẽ hơn',
-          description: 'Cạnh tranh với các công ty lớn bằng cách cung cấp phúc lợi có ý nghĩa.'
+          title: 'Thương hiệu tuyển dụng mạnh hơn',
+          description: 'Cạnh tranh ngang tầm với doanh nghiệp lớn bằng phúc lợi có ý nghĩa.'
         }
       },
 
       // Call to action
       cta: {
-        startFreeTrial: 'Bắt đầu dùng thử miễn phí 1 năm',
-        noHiddenFees: 'Không có phí ẩn, không có chi phí thiết lập.',
+        startFreeTrial: 'Dùng thử miễn phí 1 năm',
+        noHiddenFees: 'Không phí ẩn, không phí thiết lập.',
         becomePartner: 'Trở thành đối tác',
-        contactSales: 'Liên hệ bán hàng',
+        contactSales: 'Liên hệ tư vấn',
         scheduleDemo: 'Đặt lịch demo',
         viewAllArticles: 'Xem tất cả bài viết',
         readMore: 'Đọc thêm',
@@ -81,23 +81,23 @@ const resources = {
       contact: {
         becomePartner: 'Trở thành đối tác',
         contactUs: 'Liên hệ với chúng tôi',
-        partnerDescription: 'Tham gia mạng lưới đối tác của chúng tôi và phát triển doanh nghiệp',
-        generalDescription: 'Bắt đầu với Kanopy hoặc hỏi chúng tôi bất cứ điều gì',
+        partnerDescription: 'Tham gia mạng lưới đối tác để phát triển doanh nghiệp',
+        generalDescription: 'Bắt đầu với Kanopy hoặc gửi thắc mắc cho chúng tôi',
         quickContact: 'Liên hệ nhanh',
-        chatWithUs: 'Trò chuyện với chúng tôi',
-        sendMessage: 'Gửi tin nhắn cho chúng tôi',
+        chatWithUs: 'Chat với chúng tôi',
+        sendMessage: 'Gửi tin nhắn',
         fullName: 'Họ và tên',
         email: 'Email',
         company: 'Công ty',
-        message: 'Tin nhắn',
-        partnerPlaceholder: 'Hãy cho chúng tôi biết về doanh nghiệp của bạn và cách bạn muốn hợp tác với chúng tôi...',
-        generalPlaceholder: 'Hãy cho chúng tôi biết về quy mô đội ngũ, nhu cầu hoặc bất kỳ câu hỏi nào...',
+        message: 'Nội dung',
+        partnerPlaceholder: 'Giới thiệu doanh nghiệp và cách bạn muốn hợp tác cùng Kanopy...',
+        generalPlaceholder: 'Cho biết quy mô đội ngũ, nhu cầu, hoặc câu hỏi của bạn...',
         cancel: 'Hủy',
         send: 'Gửi tin nhắn',
         required: 'bắt buộc',
-        readyToMakeTeamHappier: 'Sẵn sàng làm cho đội ngũ của bạn hạnh phúc hơn?',
-        address: '92 Xuân Thủy, Thảo Điền, Thành phố Hồ Chí Minh',
-        allRightsReserved: 'Tất cả quyền được bảo lưu'
+        readyToMakeTeamHappier: 'Sẵn sàng giúp đội ngũ hạnh phúc hơn?',
+        address: '92 Xuân Thủy, Thảo Điền, TP. Hồ Chí Minh',
+        allRightsReserved: 'Đã đăng ký bản quyền'
       },
 
       // Partners page
@@ -140,14 +140,14 @@ const resources = {
 
       // Pricing page
       pricing: {
-        title: 'Giá Cả Đơn Giản, Minh Bạch',
+        title: 'Giá minh bạch, dễ hiểu',
         subtitle: 'Chọn gói phù hợp với đội ngũ của bạn',
-        description: 'Không có phí ẩn, không có chi phí thiết lập, không cam kết dài hạn. Bắt đầu với bản dùng thử miễn phí.',
-        whatsIncluded: 'Những gì được bao gồm',
+        description: 'Không phí ẩn. Không phí thiết lập. Không ràng buộc thời hạn.',
+        whatsIncluded: 'Bao gồm',
         commonQuestions: 'Câu hỏi thường gặp',
         plans: {
           launch: {
-            name: 'Ưu đãi Ra mắt',
+            name: 'Ưu đãi ra mắt',
             price: '0 VND',
             period: 'miễn phí 1 năm',
             description: 'Dùng thử miễn phí 1 năm cho thành viên sáng lập',
@@ -156,14 +156,14 @@ const resources = {
               'Dashboard phân tích cơ bản',
               'Hỗ trợ email',
               'Onboarding miễn phí',
-              'Không giới hạn việc đổi thưởng'
+              'Không giới hạn giao dịch đổi ưu đãi'
             ],
             cta: 'Bắt đầu dùng thử miễn phí',
             popular: 'Phổ biến nhất'
           },
           standard: {
             name: 'Gói Tiêu chuẩn',
-            price: '25,000 VND',
+            price: '25.000 VND',
             period: 'mỗi nhân viên/tháng',
             description: 'Truy cập đầy đủ phúc lợi & dashboard phân tích',
             features: [
@@ -171,7 +171,7 @@ const resources = {
               'Dashboard phân tích nâng cao',
               'Hỗ trợ ưu tiên',
               'Báo cáo tùy chỉnh',
-              'API tích hợp'
+              'Tích hợp API'
             ],
             cta: 'Bắt đầu ngay'
           },
@@ -179,23 +179,23 @@ const resources = {
             name: 'Gói Doanh nghiệp',
             price: 'Liên hệ',
             period: 'để báo giá',
-            description: 'Tùy chỉnh cho 500+ nhân viên',
+            description: 'Tối ưu cho đội ngũ 500+ nhân viên',
             features: [
               'Tất cả tính năng Standard',
               'Tích hợp SSO',
-              'Quản lý tài khoản chuyên dụng',
+              'Quản lý tài khoản chuyên trách',
               'Onboarding tùy chỉnh',
-              'SLA cam kết'
+              'Cam kết SLA'
             ],
-            cta: 'Liên hệ bán hàng'
+            cta: 'Liên hệ tư vấn'
           }
         },
         features: [
           'Truy cập 100+ đối tác tin cậy',
           'Dashboard phân tích thời gian thực',
-          'Ứng dụng mobile dễ sử dụng',
+          'Ứng dụng di động dễ dùng',
           'Onboarding & đào tạo',
-          'Hỗ trợ khách hàng 24/7',
+          'Hỗ trợ 24/7',
           'Tích hợp API',
           'Báo cáo tùy chỉnh',
           'Quản lý nhóm',
@@ -203,18 +203,18 @@ const resources = {
         ],
         faq: {
           changePlans: {
-            question: 'Tôi có thể thay đổi gói sau này không?',
-            answer: 'Có, bạn có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào.'
+            question: 'Có thể thay đổi gói sau này không?',
+            answer: 'Có, bạn có thể nâng/hạ gói bất kỳ lúc nào.'
           },
           teamSize: {
-            question: 'Có yêu cầu về quy mô đội ngũ tối thiểu không?',
-            answer: 'Không, đội ngũ với bất kỳ quy mô nào đều có thể tham gia Kanopy, bắt đầu từ 10 nhân viên.'
+            question: 'Có yêu cầu quy mô đội ngũ tối thiểu không?',
+            answer: 'Không. Bất kỳ quy mô nào cũng tham gia được, từ 10 nhân viên.'
           },
           viewAll: 'Xem tất cả câu hỏi thường gặp →'
         },
         cta: {
-          title: 'Sẵn sàng biến đổi phúc lợi nhân viên của bạn?',
-          subtitle: 'Tham gia cùng hàng nghìn công ty đã sử dụng Kanopy'
+          title: 'Sẵn sàng nâng cấp phúc lợi?',
+          subtitle: 'Tham gia cùng các doanh nghiệp đang dùng Kanopy'
         }
       },
 
@@ -253,27 +253,27 @@ const resources = {
       howItWorks: {
         title: 'Cách thức hoạt động',
         step1: {
-          title: 'Tham gia Mạng lưới Kanopy',
-          description: 'Đăng ký công ty và giới thiệu nhân viên.'
+          title: 'Tham gia mạng lưới Kanopy',
+          description: 'Đăng ký công ty và mời nhân viên.'
         },
         step2: {
-          title: 'Chọn Gói',
-          description: 'Phí cố định 25,000 VND mỗi nhân viên/tháng.'
+          title: 'Chọn gói',
+          description: 'Phí cố định 25.000 VND/nhân viên/tháng.'
         },
         step3: {
-          title: 'Kích hoạt Phúc lợi',
-          description: 'Nhân viên đổi thưởng ăn uống, sức khỏe, phúc lợi lifestyle qua ứng dụng.'
+          title: 'Kích hoạt phúc lợi',
+          description: 'Nhân viên đổi ưu đãi ăn uống, sức khỏe, lifestyle trên ứng dụng.'
         },
         step4: {
-          title: 'Theo dõi Kết quả',
+          title: 'Theo dõi hiệu quả',
           description: 'HR xem dữ liệu và ROI theo thời gian thực.'
         }
       },
 
       forCompanies: {
-        title: 'Biến đổi Chi tiêu Phúc lợi thành Giá trị Thực.',
-        subtitle: 'Kanopy biến chi phí phúc lợi tùy tiện thành những phúc lợi có tác động cao, dự đoán được, giúp tăng khả năng giữ chân và xây dựng thương hiệu.',
-        valueProposition: 'Mỗi 1 VND chi tiêu = 10 VND giá trị nhân viên.',
+        title: 'Biến chi tiêu phúc lợi thành giá trị thực.',
+        subtitle: 'Kanopy biến chi phí phúc lợi rời rạc thành phúc lợi tác động cao, dự trù; giúp giữ chân và xây dựng thương hiệu.',
+        valueProposition: 'Mỗi 1 VND chi tiêu = 10 VND giá trị cảm nhận.',
         benefits: {
           budgetPredictability: {
             title: 'Dự đoán Ngân sách',
@@ -295,8 +295,8 @@ const resources = {
       },
 
       forEmployees: {
-        title: 'Phúc lợi Hàng ngày thực sự Quan trọng.',
-        savings: 'Nhân viên tiết kiệm tới 500,000 VND hàng tháng thông qua phúc lợi Kanopy.',
+        title: 'Phúc lợi hàng ngày mang lại giá trị thật.',
+        savings: 'Nhân viên có thể tiết kiệm tới 500.000 VND mỗi tháng với Kanopy.',
         categories: {
           foodBeverage: {
             title: 'Ăn uống & Đồ uống',

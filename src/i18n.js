@@ -7,7 +7,7 @@ const resources = {
     translation: {
       // Navigation
       nav: {
-        platform: 'Nền tảng',
+        platform: 'Trang chủ',
         solutions: 'Giải pháp', 
         about: 'Về chúng tôi',
         resources: 'Tài nguyên',
@@ -23,23 +23,23 @@ const resources = {
         faq: 'Câu hỏi thường gặp',
         descriptions: {
           howItWorks: 'Quy trình 4 bước để bắt đầu',
-          forCompanies: 'Biến đổi chi tiêu phúc lợi thành giá trị',
-          forEmployees: 'Phúc lợi hàng ngày thực sự quan trọng',
-          community: 'Thể thao, đào tạo và sự kiện networking',
-          partners: 'Ưu đãi độc quyền từ 100+ đối tác tin cậy',
-          mission: 'Sứ mệnh của chúng tôi trong việc biến đổi phúc lợi nhân viên',
-          stories: 'Câu chuyện thành công và nghiên cứu trường hợp của khách hàng',
-          blog: 'Thông tin mới nhất và xu hướng ngành',
-          faq: 'Câu trả lời cho các câu hỏi thường gặp'
+          forCompanies: 'Biến chi tiêu phúc lợi thành giá trị',
+          forEmployees: 'Phúc lợi hàng ngày mang lại giá trị thật',
+          community: 'Thể thao, đào tạo và sự kiện kết nối',
+          partners: 'Ưu đãi độc quyền từ 100+ đối tác',
+          mission: 'Sứ mệnh đổi mới phúc lợi nhân viên',
+          stories: 'Câu chuyện thành công & case study',
+          blog: 'Thông tin mới và xu hướng ngành',
+          faq: 'Giải đáp các câu hỏi thường gặp'
         }
       },
       
       // Hero section
       hero: {
-        title: 'Engage. Retain. Reward.',
+        title: 'Gắn kết. Giữ chân. Tri ân.',
         subtitle: 'Phúc lợi nhân viên phải chăng cho mọi doanh nghiệp.',
-        description: 'Kanopy giúp doanh nghiệp nhỏ và vừa mang đến phúc lợi hàng ngày và chăm sóc sức khỏe như các tập đoàn lớn — dự trù, tiết kiệm và đơn giản.',
-        startTrial: 'Bắt đầu dùng thử miễn phí',
+        description: 'Kanopy giúp doanh nghiệp nhỏ và vừa mang đến phúc lợi hàng ngày và chăm sóc sức khỏe như các tập đoàn lớn — dự dự trù, tiết kiệm và đơn giản.',
+        startTrial: 'Dùng thử miễn phí 1 năm',
         contactUs: 'Liên hệ với chúng tôi',
         keyBenefits: '3 lợi ích chính',
         scrollToExplore: 'Cuộn để khám phá'
@@ -47,18 +47,18 @@ const resources = {
 
       // Key benefits
       benefits: {
-        title: '3 Lợi ích chính',
+        title: '3 lợi ích chính',
         predictableBudgets: {
-          title: 'Tối ưu hóa ngân sách',
-          description: 'Thay chi tiêu phúc lợi rời rạc bằng gói cố định theo tháng.'
+          title: 'Ngân sách dự dự trù',
+          description: 'Chuyển chi tiêu phúc lợi rời rạc thành gói cố định theo tháng.'
         },
         dailyCare: {
-          title: 'Trải nghiệm nhân viên chất lượng',
-          description: 'Phúc lợi hàng ngày mà đối tượng thực sự thích.'
+          title: 'Chăm sóc hàng ngày',
+          description: 'Phúc lợi hàng ngày mà nhân viên thực sự thích.'
         },
         strongerBrand: {
-          title: 'Nâng tầm thương hiệu nhà tuyển dụng',
-          description: 'Cạnh tranh ngang tầm với doanh nghiệp lớn bằng phúc lợi có ý nghĩa.'
+          title: 'Thương hiệu tuyển dụng mạnh hơn',
+          description: 'Cạnh tranh ngang tầm với doanh nghiệp lớn nhờ phúc lợi có ý nghĩa.'
         }
       },
 
@@ -84,16 +84,16 @@ const resources = {
         partnerDescription: 'Tham gia mạng lưới đối tác để phát triển doanh nghiệp',
         generalDescription: 'Bắt đầu với Kanopy hoặc gửi thắc mắc cho chúng tôi',
         quickContact: 'Liên hệ nhanh',
-        chatWithUs: 'Chat với chúng tôi',
+        chatWithUs: 'Chat với Kanopy',
         sendMessage: 'Gửi tin nhắn',
         fullName: 'Họ và tên',
         email: 'Email',
         company: 'Công ty',
         message: 'Nội dung',
         partnerPlaceholder: 'Giới thiệu doanh nghiệp và cách bạn muốn hợp tác cùng Kanopy...',
-        generalPlaceholder: 'Cho biết quy mô đội ngũ, nhu cầu, hoặc câu hỏi của bạn...',
+        generalPlaceholder: 'Cho biết quy mô đội ngũ, nhu cầu hoặc câu hỏi của bạn...',
         cancel: 'Hủy',
-        send: 'Gửi tin nhắn',
+        send: 'Gửi',
         required: 'bắt buộc',
         readyToMakeTeamHappier: 'Sẵn sàng giúp đội ngũ hạnh phúc hơn?',
         address: '92 Xuân Thủy, Thảo Điền, TP. Hồ Chí Minh',
@@ -220,28 +220,28 @@ const resources = {
 
       // Platform page
       platform: {
-        title: 'Nền Tảng',
-        subtitle: 'Quy trình onboarding hoàn chỉnh, gói đơn giản, đổi thưởng dễ dàng và phân tích thời gian thực',
-        description: 'Tất cả trong một dashboard được thiết kế cho sự đơn giản và quy mô.',
+        title: 'Trang chủ',
+        subtitle: 'Phúc lợi nhân viên đơn giản, minh bạch và dễ dự trù',
+        description: 'Tất cả trong một dashboard được thiết kế để triển khai nhanh, dùng dễ và đo lường rõ ràng.',
         features: {
-          title: 'Tính Năng Nền Tảng'
+          title: 'Tính năng nổi bật'
         },
         cta: {
-          title: 'Sẵn sàng xem Nền Tảng?',
-          subtitle: 'Trải nghiệm sự đơn giản của giải pháp tất cả trong một'
+          title: 'Xem Kanopy hoạt động',
+          subtitle: 'Trải nghiệm sự đơn giản của giải pháp tất-cả-trong-một'
         }
       },
 
       // Solutions component
       solutions: {
-        title: 'Giải Pháp',
+        title: 'Giải pháp',
         community: {
-          title: 'Cộng Đồng & Sự Kiện',
-          description: 'Hơn cả giảm giá — chúng tôi xây dựng kết nối với giải đấu thể thao, khóa đào tạo chung và bữa tối networking.'
+          title: 'Cộng đồng & Sự kiện',
+          description: 'Không chỉ là giảm giá — chúng tôi kết nối con người qua giải thể thao, đào tạo chung và các buổi giao lưu kết nối.'
         },
         merchants: {
-          title: 'Thương Gia & Đối Tác',
-          description: 'Tham gia Mạng lưới Thương gia Kanopy — tiếp cận 10,000+ chuyên gia trên khắp Việt Nam.'
+          title: 'Thương gia & Đối tác',
+          description: 'Tham gia mạng lưới thương gia Kanopy — tiếp cận 10.000+ chuyên gia trên khắp Việt Nam.'
         }
       },
 
@@ -254,19 +254,19 @@ const resources = {
         title: 'Cách thức hoạt động',
         step1: {
           title: 'Tham gia mạng lưới Kanopy',
-          description: 'Đăng ký công ty và mời nhân viên.'
+          description: 'Đăng ký công ty và mời nhân viên tham gia.'
         },
         step2: {
-          title: 'Phí cố định',
-          description: 'Mô hình phí đơn giản theo số nhân viên.'
+          title: 'Chọn gói',
+          description: 'Phí cố định 25.000đ/nhân viên/tháng.'
         },
         step3: {
           title: 'Kích hoạt phúc lợi',
-          description: 'Nhân viên đổi ưu đãi ăn uống, sức khỏe, lifestyle trên ứng dụng.'
+          description: 'Nhân viên dùng ưu đãi ăn uống, sức khỏe, lifestyle ngay trên ứng dụng.'
         },
         step4: {
           title: 'Theo dõi hiệu quả',
-          description: 'HR xem dữ liệu và ROI theo thời gian thực.'
+          description: 'HR xem số liệu sử dụng và ROI theo thời gian thực.'
         }
       },
 
@@ -296,7 +296,7 @@ const resources = {
 
       forEmployees: {
         title: 'Phúc lợi hàng ngày mang lại giá trị thật.',
-        savings: 'Nhân viên có thể tiết kiệm tới 2.000.000 VND mỗi tháng với Kanopy.',
+        savings: 'Nhân viên tiết kiệm tới 500.000 VND mỗi tháng với Kanopy.',
         categories: {
           foodBeverage: {
             title: 'Ăn uống & Đồ uống',
@@ -441,9 +441,9 @@ const resources = {
           }
         },
         savings: {
-          title: 'Tiết kiệm tới 2,000,000 VND',
-          description: 'Nhân viên tiết kiệm hàng tháng thông qua phúc lợi Kanopy',
-          cta: 'Xem tất cả Phúc lợi'
+          title: 'Tiết kiệm tới 500.000 VND',
+          description: 'Khoản tiết kiệm hàng tháng từ ưu đãi Kanopy',
+          cta: 'Xem tất cả phúc lợi'
         }
       },
 
@@ -522,27 +522,27 @@ const resources = {
       // Community page
       communityPage: {
         hero: {
-          title: 'Hơn cả Ưu đãi — Chúng tôi Xây dựng Kết nối',
+          title: 'Hơn cả ưu đãi — Chúng tôi xây dựng kết nối',
           subtitle: 'Cộng đồng & Sự kiện',
-          description: 'Tham gia cộng đồng chuyên gia sôi động nơi mọi người kết nối, học hỏi và phát triển cùng nhau.'
+          description: 'Tham gia cộng đồng sôi động nơi mọi người kết nối, học hỏi và phát triển.'
         },
         activities: {
           sports: {
-            title: 'Giải đấu Thể thao',
-            description: 'Câu lạc bộ bóng đá, cầu lông và chạy bộ trên các công ty.'
+            title: 'CLB & giải thể thao',
+            description: 'CLB bóng đá, cầu lông và chạy bộ giữa các công ty.'
           },
           training: {
-            title: 'Đào tạo Chia sẻ',
-            description: 'Hội thảo về kỹ năng lãnh đạo, dịch vụ khách hàng và kỹ năng số.'
+            title: 'Đào tạo chia sẻ',
+            description: 'Kỹ năng lãnh đạo, dịch vụ khách hàng và kỹ năng số.'
           },
           networking: {
-            title: 'Bữa tối Giao lưu',
-            description: 'Gặp mặt hàng tháng cho các nhà sáng lập SME và đội ngũ HR.'
+            title: 'Giao lưu kết nối',
+            description: 'Gặp gỡ hàng tháng cho nhà sáng lập SME và đội ngũ HR.'
           }
         },
         cta: {
-          title: 'Tham gia Cộng đồng của chúng tôi',
-          description: 'Kết nối với các chuyên gia cùng chí hướng và mở rộng mạng lưới của bạn',
+          title: 'Tham gia cộng đồng',
+          description: 'Kết nối với các chuyên gia cùng chí hướng và mở rộng mạng lưới',
           button: 'Bắt đầu'
         }
       },
@@ -585,35 +585,35 @@ const resources = {
       // Stories page
       storiesPage: {
         hero: {
-          title: 'Câu chuyện Tác động',
-          subtitle: 'Câu chuyện thành công thực tế',
-          description: 'Xem cách các công ty như của bạn đang biến đổi phúc lợi nhân viên với Kanopy.'
+          title: 'Câu chuyện tác động',
+          subtitle: 'Thành công thực tế',
+          description: 'Xem cách các công ty như bạn đang nâng cấp phúc lợi với Kanopy.'
         },
         stories: [
           {
-            company: 'Chuỗi Café',
+            company: 'Chuỗi café',
             result: 'Tiết kiệm 75% chi phí phúc lợi',
-            quote: 'Nhân viên của chúng tôi giờ đây tận hưởng phúc lợi hàng ngày thay vì tiền thưởng ngẫu nhiên.',
-            industry: 'Thực phẩm & Đồ uống',
+            quote: 'Nhân viên giờ có phúc lợi hàng ngày thay vì thưởng ngẫu hứng.',
+            industry: 'F&B',
             employees: '150+ nhân viên'
           },
           {
-            company: 'Startup Công nghệ',
-            result: '+30% tỷ lệ giữ chân',
-            quote: 'Nhân viên cuối cùng cảm thấy được quan tâm.',
+            company: 'Startup công nghệ',
+            result: '+30% giữ chân',
+            quote: 'Nhân viên thực sự cảm nhận được sự quan tâm.',
             industry: 'Công nghệ',
             employees: '50+ nhân viên'
           },
           {
             company: 'Bán lẻ SME',
-            result: '0 căng thẳng quản lý',
-            quote: 'Kanopy tự động hóa mọi thứ — HR của chúng tôi lại được tự do.',
+            result: '0 gánh nặng vận hành',
+            quote: 'Kanopy tự động hóa — HR rảnh tay trở lại.',
             industry: 'Bán lẻ',
             employees: '100+ nhân viên'
           }
         ],
         results: {
-          title: 'Kết quả Đã được Chứng minh',
+          title: 'Kết quả được chứng minh',
           stats: {
             costSavings: {
               value: '75%',
@@ -621,27 +621,27 @@ const resources = {
             },
             retention: {
               value: '30%',
-              label: 'Tăng tỷ lệ giữ chân'
+              label: 'Tăng giữ chân'
             },
             adminOverhead: {
               value: '0',
-              label: 'Chi phí quản lý'
+              label: 'Gánh nặng vận hành'
             }
           }
         },
         cta: {
-          title: 'Viết Câu chuyện Thành công của Bạn',
-          subtitle: 'Tham gia các công ty đã thấy kết quả tuyệt vời',
-          button: 'Bắt đầu Dùng thử Miễn phí'
+          title: 'Viết câu chuyện của bạn',
+          subtitle: 'Gia nhập những công ty đã thấy kết quả',
+          button: 'Bắt đầu dùng thử miễn phí'
         }
       },
 
       // Blog page
       blogPage: {
         hero: {
-          title: 'Blog & Thông tin',
-          subtitle: 'Xu hướng HR và mẹo hay',
-          description: 'Cập nhật những tin tức mới nhất về phúc lợi nhân viên, xu hướng HR và thông tin kinh doanh cho SME tại Việt Nam.'
+          title: 'Blog & Insights',
+          subtitle: 'Xu hướng HR & mẹo hay',
+          description: 'Cập nhật kiến thức về phúc lợi nhân viên, xu hướng HR và thông tin cho SME tại Việt Nam.'
         },
         categories: {
           hrTrends: 'Xu hướng HR',
@@ -653,41 +653,41 @@ const resources = {
         },
         articles: {
           hrTrends: {
-            title: 'Xu hướng HR tại Việt Nam: Những gì SME cần biết năm 2025',
-            excerpt: 'Khám phá những xu hướng mới nhất định hình nguồn nhân lực tại Việt Nam và cách các doanh nghiệp nhỏ có thể duy trì tính cạnh tranh.',
-            date: '1 Tháng 10, 2025'
+            title: 'Xu hướng HR tại Việt Nam: SME cần biết gì 2025',
+            excerpt: 'Những xu hướng mới định hình nhân sự và cách SME giữ lợi thế.',
+            date: '01/10/2025'
           },
           engagement: {
-            title: 'Ý tưởng Gắn kết Nhân viên cho Doanh nghiệp Nhỏ',
-            excerpt: 'Các chiến lược đơn giản nhưng hiệu quả để tăng cường gắn kết nhân viên mà không phá vỡ ngân sách.',
-            date: '28 Tháng 9, 2025'
+            title: 'Ý tưởng gắn kết cho doanh nghiệp nhỏ',
+            excerpt: 'Chiến lược đơn giản, hiệu quả mà không tốn kém.',
+            date: '28/09/2025'
           },
           budgetPlanning: {
-            title: 'Lập kế hoạch Ngân sách cho Phúc lợi Nhân viên: Hướng dẫn Hoàn chình',
-            excerpt: 'Học cách tạo ngân sách bền vững cho phúc lợi nhân viên phù hợp với SME của bạn.',
-            date: '25 Tháng 9, 2025'
+            title: 'Lập ngân sách phúc lợi: Hướng dẫn hoàn chỉnh',
+            excerpt: 'Xây ngân sách bền vững, phù hợp SME.',
+            date: '25/09/2025'
           },
           caseStudy: {
-            title: 'Nghiên cứu Trường hợp: Cách một Startup Công nghệ Cải thiện Tỷ lệ Giữ chân 30%',
-            excerpt: 'Câu chuyện thực về cách thực hiện các quyền lợi hàng ngày đã thay đổi văn hóa công ty và giảm tỷ lệ nghỉ việc.',
-            date: '22 Tháng 9, 2025'
+            title: 'Case study: Startup công nghệ tăng giữ chân 30%',
+            excerpt: 'Phúc lợi hàng ngày thay đổi văn hóa và giảm nghỉ việc.',
+            date: '22/09/2025'
           },
           roiAnalysis: {
-            title: 'ROI của Phúc lợi Nhân viên: Đo lường những gì Quan trọng',
-            excerpt: 'Hiểu cách theo dõi và đo lường lợi tức đầu tư cho chương trình phúc lợi nhân viên của bạn.',
-            date: '20 Tháng 9, 2025'
+            title: 'ROI của phúc lợi: Đo lường điều quan trọng',
+            excerpt: 'Cách theo dõi và đo lường ROI cho chương trình phúc lợi.',
+            date: '20/09/2025'
           },
           remoteCulture: {
-            title: 'Xây dựng Văn hóa Công ty trong Đội ngũ Remote-First',
-            excerpt: 'Các chiến lược để duy trì văn hóa công ty mạnh mẽ khi đội ngũ của bạn phân tán khắp Việt Nam.',
-            date: '18 Tháng 9, 2025'
+            title: 'Văn hóa công ty khi remote-first',
+            excerpt: 'Giữ văn hóa mạnh khi đội ngũ phân tán.',
+            date: '18/09/2025'
           }
         },
         readTime: '5 phút đọc',
         readMore: 'Đọc thêm →',
         newsletter: {
-          title: 'Luôn Cập nhật',
-          description: 'Nhận những thông tin mới nhất gửi đến hộp thư của bạn',
+          title: 'Luôn cập nhật',
+          description: 'Nhận cập nhật mới qua email',
           placeholder: 'Nhập email của bạn',
           subscribe: 'Đăng ký'
         }
@@ -703,42 +703,42 @@ const resources = {
         faqs: {
           cost: {
             question: 'Kanopy có giá bao nhiều?',
-            answer: '25.000 VND mỗi nhân viên/tháng. Không có phí thiết lập, không có phí ẩn.'
+            answer: '25.000đ/nhân viên/tháng. Không phí thiết lập, không phí ẩn.'
           },
           trial: {
             question: 'Có dùng thử miễn phí không?',
-            answer: 'Có! Chúng tôi cung cấp dùng thử miễn phí 1 năm cho các thành viên sáng lập. Không yêu cầu cam kết.'
+            answer: 'Có. 1 năm dùng thử cho thành viên sáng lập — không yêu cầu cam kết.'
           },
           smallTeams: {
-            question: 'Các đội nhỏ có thể tham gia không?',
-            answer: 'Hoàn toàn có thể. Ngay cả SME 10 người cũng có thể tham gia và hưởng lợi từ mạng lưới của chúng tôi.'
+            question: 'Đội nhỏ có tham gia được không?',
+            answer: 'Hoàn toàn được. Doanh nghiệp từ 10 người vẫn hưởng trọn lợi ích mạng lưới.'
           },
           usage: {
-            question: 'Nhân viên sử dụng quyền lợi như thế nào?',
-            answer: 'Thông qua ứng dụng Kanopy với việc quét mã QR hoặc mã đổi quà đơn giản.'
+            question: 'Nhân viên sử dụng ưu đãi ra sao?',
+            answer: 'Qua ứng dụng Kanopy bằng QR hoặc mã đổi ưu đãi.'
           },
           benefits: {
             question: 'Có những loại phúc lợi nào?',
-            answer: 'Phúc lợi về thực phẩm & đồ uống, sức khỏe & chăm sóc sức khỏe, lối sống & giải trí, và học tập & phát triển từ các đối tác đáng tin cậy.'
+            answer: 'Ăn uống, sức khỏe & chăm sóc, lifestyle & giải trí, học tập & phát triển.'
           },
           setup: {
-            question: 'Chúng tôi có thể bắt đầu nhanh như thế nào?',
-            answer: 'Thiết lập mất ít hơn 24 giờ. Sau khi được phê duyệt, nhân viên của bạn có thể bắt đầu sử dụng phúc lợi ngay lập tức.'
+            question: 'Mất bao lâu để bắt đầu?',
+            answer: 'Thiết lập dưới 24 giờ. Duyệt xong là dùng ngay.'
           },
           contract: {
-            question: 'Có thời gian hợp đồng tối thiểu không?',
-            answer: 'Không có hợp đồng tối thiểu. Bạn có thể hủy bất cứ lúc nào với thông báo trước 30 ngày.'
+            question: 'Có yêu cầu thời hạn tối thiểu không?',
+            answer: 'Không. Có thể hủy bất kỳ lúc nào với thông báo trước 30 ngày.'
           },
           analytics: {
-            question: 'Bạn có cung cấp phân tích và báo cáo không?',
-            answer: 'Có, chúng tôi cung cấp phân tích sử dụng chi tiết và báo cáo ROI thông qua bảng điều khiển HR của bạn.'
+            question: 'Có báo cáo & phân tích không?',
+            answer: 'Có. Dashboard HR cung cấp số liệu sử dụng chi tiết và báo cáo ROI.'
           }
         },
         contact: {
-          title: 'Vẫn còn Câu hỏi?',
-          description: 'Đội ngũ của chúng tôi sẵn sàng giúp bạn bắt đầu',
-          supportButton: 'Liên hệ Hỗ trợ',
-          demoButton: 'Đặt lịch Demo'
+          title: 'Vẫn còn thắc mắc?',
+          description: 'Đội ngũ Kanopy luôn sẵn sàng hỗ trợ bạn khởi động',
+          supportButton: 'Liên hệ hỗ trợ',
+          demoButton: 'Đặt lịch demo'
         }
       }
     }

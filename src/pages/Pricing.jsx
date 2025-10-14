@@ -8,14 +8,14 @@ export default function Pricing({ onContactClick }) {
 
   const plans = [
     {
-      name: t('pricing.plans.launch.name'),
-      price: t('pricing.plans.launch.price'),
-      period: t('pricing.plans.launch.period'),
-      description: t('pricing.plans.launch.description'),
-      features: t('pricing.plans.launch.features', { returnObjects: true }),
+      name: t('pricing.plans.student.name'),
+      price: t('pricing.plans.student.price'),
+      period: t('pricing.plans.student.period'),
+      description: t('pricing.plans.student.description'),
+      features: t('pricing.plans.student.features', { returnObjects: true }),
       highlighted: true,
-      cta: t('pricing.plans.launch.cta'),
-      popular: t('pricing.plans.launch.popular'),
+      cta: t('pricing.plans.student.cta'),
+      popular: t('pricing.plans.student.popular'),
     },
     {
       name: t('pricing.plans.standard.name'),

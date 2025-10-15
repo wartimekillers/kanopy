@@ -2,7 +2,7 @@
   "name": "kanopy-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wartimekillers.github.io/kanopy",
+  "homepage": "https://kanopy.vn",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

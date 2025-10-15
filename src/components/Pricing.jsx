@@ -5,7 +5,7 @@ export default function Pricing(){
   const { t } = useTranslation()
   
   const plans = [
-    {name: t('pricingSection.plans.launch.name'), price: t('pricingSection.plans.launch.price'), desc: t('pricingSection.plans.launch.description')},
+    {name: t('pricingSection.plans.student.name'), price: t('pricingSection.plans.student.price'), desc: t('pricingSection.plans.student.description')},
     {name: t('pricingSection.plans.standard.name'), price: t('pricingSection.plans.standard.price'), desc: t('pricingSection.plans.standard.description')},
     {name: t('pricingSection.plans.enterprise.name'), price: t('pricingSection.plans.enterprise.price'), desc: t('pricingSection.plans.enterprise.description')}
   ]

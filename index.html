@@ -20,6 +20,12 @@
     <link rel="stylesheet" crossorigin href="/assets/index-B_1riK_Z.css">
   </head>
   <body class="antialiased font-sans">
+    <script>
+      // Redirect to hash router if no hash is present
+      if (!window.location.hash) {
+        window.location.hash = '#/';
+      }
+    </script>
     <div id="root"></div>
   </body>
 </html>

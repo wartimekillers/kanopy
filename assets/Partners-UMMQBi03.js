@@ -1,4 +1,4 @@
-import{u as c,j as e}from"./index-DNRQk5iq.js";import{R as t}from"./Reveal-Cn8VP1cf.js";const s=(n,l="#4A90E2")=>`data:image/svg+xml,${encodeURIComponent(`
+import{u as c,j as e}from"./index-BmJt2CxO.js";import{R as t}from"./Reveal-D_JoX8PR.js";const s=(n,l="#4A90E2")=>`data:image/svg+xml,${encodeURIComponent(`
     <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
       <rect width="100%" height="100%" fill="${l}" rx="8"/>
       <text x="100" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">${n}</text>

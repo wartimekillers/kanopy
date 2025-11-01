@@ -1489,12 +1489,17 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'vi', // Default to Vietnamese
+    lng: localStorage.getItem('language') || 'vi', // Get from localStorage or default to Vietnamese
     fallbackLng: 'en',
     
     interpolation: {
       escapeValue: false
     }
   })
+
+// Save language changes to localStorage
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('language', lng)
+})
 
 export default i18n

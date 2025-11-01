@@ -25,7 +25,7 @@ Type: ${type}
     `.trim()
 
     // Open email client
-    window.location.href = `mailto:contact@kanopy.vn?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    window.location.href = `mailto:hello@kanopy.vn?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     
     // Reset form and close modal
     setFormData({ name: '', email: '', company: '', message: '' })
@@ -34,7 +34,7 @@ Type: ${type}
 
   const openZalo = () => {
     // Replace with your actual Zalo contact link
-    window.open('https://zalo.me/kanopyvn', '_blank')
+    window.open('https://zalo.me/84903191447', '_blank')
     onClose()
   }
 
@@ -82,7 +82,7 @@ Type: ${type}
             </button>
             
             <a
-              href="mailto:contact@kanopy.vn"
+              href="mailto:hello@kanopy.vn"
               className="flex items-center gap-3 p-3 bg-emerald-50 hover:bg-emerald-100 rounded-xl transition-colors duration-200"
             >
               <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
@@ -92,7 +92,7 @@ Type: ${type}
               </div>
               <div className="text-left">
                 <p className="font-medium text-gray-900">{t('contact.email')}</p>
-                <p className="text-xs text-gray-600">contact@kanopy.vn</p>
+                <p className="text-xs text-gray-600">hello@kanopy.vn</p>
               </div>
             </a>
           </div>

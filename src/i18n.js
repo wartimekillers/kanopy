@@ -285,7 +285,7 @@ const resources = {
           },
           employerBranding: {
             title: 'Thương hiệu Nhà tuyển dụng',
-            description: 'Cung cấp phúc lợi cấp tập đoàn với chi phí SME.'
+            description: 'Cung cấp phúc lợi cấp tập đoàn với chi phí hợp lý.'
           },
           engagementData: {
             title: 'Dữ liệu Gắn kết',
@@ -319,7 +319,7 @@ const resources = {
 
       aboutSection: {
         title: 'Sứ mệnh & Tầm nhìn',
-        description: 'Làm cho việc chăm sóc nhân viên trở nên đơn giản, phải chăng và mạnh mẽ — giúp mọi công ty chăm sóc như một tập đoàn. Xây dựng mạng lưới phúc lợi chia sẻ đầu tiên của Việt Nam cho SME.',
+        description: 'Làm cho việc chăm sóc nhân viên trở nên đơn giản, phải chăng và mạnh mẽ — giúp mọi công ty chăm sóc như một tập đoàn. Xây dựng mạng lưới phúc lợi chia sẻ đầu tiên của Việt Nam cho mọi doanh nghiệp.',
         stats: {
           employees: '500.000+ nhân viên trong mạng lưới',
           discounts: 'giảm giá trung bình từ nhà cung cấp',
@@ -389,7 +389,7 @@ const resources = {
           },
           employerBranding: {
             title: 'Thương hiệu Nhà tuyển dụng',
-            description: 'Cung cấp phúc lợi cấp tập đoàn với chi phí SME.'
+            description: 'Cung cấp phúc lợi cấp tập đoàn với chi phí hợp lý.'
           },
           engagementData: {
             title: 'Dữ liệu Gắn kết',
@@ -537,7 +537,7 @@ const resources = {
           },
           networking: {
             title: 'Giao lưu kết nối',
-            description: 'Gặp gỡ hàng tháng cho nhà sáng lập SME và đội ngũ HR.'
+            description: 'Gặp gỡ hàng tháng cho các nhà sáng lập và đội ngũ HR.'
           }
         },
         cta: {
@@ -559,7 +559,7 @@ const resources = {
         },
         vision: {
           title: 'Tầm nhìn của chúng tôi',
-          description: 'Xây dựng mạng lưới phúc lợi chia sẻ đầu tiên của Việt Nam cho các SME — nơi sức mạnh tập thể tạo ra các quyền lợi cấp tập đoàn cho tất cả mọi người.'
+          description: 'Xây dựng mạng lưới phúc lợi chia sẻ đầu tiên của Việt Nam cho các doanh nghiệp — nơi sức mạnh tập thể tạo ra các quyền lợi cấp tập đoàn cho tất cả mọi người.'
         },
         impact: {
           title: 'Tác động của chúng tôi'
@@ -605,7 +605,7 @@ const resources = {
             employees: '50+ nhân viên'
           },
           {
-            company: 'Bán lẻ SME',
+            company: 'Cửa hàng bán lẻ',
             result: '0 gánh nặng vận hành',
             quote: 'Kanopy tự động hóa — HR rảnh tay trở lại.',
             industry: 'Bán lẻ',
@@ -641,7 +641,7 @@ const resources = {
         hero: {
           title: 'Blog & Insights',
           subtitle: 'Xu hướng HR & mẹo hay',
-          description: 'Cập nhật kiến thức về phúc lợi nhân viên, xu hướng HR và thông tin cho SME tại Việt Nam.'
+          description: 'Cập nhật kiến thức về phúc lợi nhân viên, xu hướng HR và thông tin cho doanh nghiệp tại Việt Nam.'
         },
         categories: {
           hrTrends: 'Xu hướng HR',
@@ -653,8 +653,8 @@ const resources = {
         },
         articles: {
           hrTrends: {
-            title: 'Xu hướng HR tại Việt Nam: SME cần biết gì 2025',
-            excerpt: 'Những xu hướng mới định hình nhân sự và cách SME giữ lợi thế.',
+            title: 'Xu hướng HR tại Việt Nam: Doanh nghiệp cần biết gì 2025',
+            excerpt: 'Những xu hướng mới định hình nhân sự và cách doanh nghiệp giữ lợi thế.',
             date: '01/10/2025'
           },
           engagement: {
@@ -664,7 +664,7 @@ const resources = {
           },
           budgetPlanning: {
             title: 'Lập ngân sách phúc lợi: Hướng dẫn hoàn chỉnh',
-            excerpt: 'Xây ngân sách bền vững, phù hợp SME.',
+            excerpt: 'Xây ngân sách bền vững, phù hợp doanh nghiệp.',
             date: '25/09/2025'
           },
           caseStudy: {
@@ -1025,7 +1025,7 @@ const resources = {
           },
           employerBranding: {
             title: 'Employer Branding',
-            description: 'Offer corporate-level benefits at SME cost.'
+            description: 'Offer corporate-level benefits at affordable cost.'
           },
           engagementData: {
             title: 'Engagement Data',
@@ -1059,7 +1059,7 @@ const resources = {
 
       aboutSection: {
         title: 'Mission & Vision',
-        description: 'To make employee care simple, affordable, and powerful — helping every company care like a corporation. Build Vietnam\'s first shared benefits network for SMEs.',
+        description: 'To make employee care simple, affordable, and powerful — helping every company care like a corporation. Build Vietnam\'s first shared benefits network for all businesses.',
         stats: {
           employees: '500,000+ employees in network',
           discounts: 'average vendor discounts',
@@ -1129,7 +1129,7 @@ const resources = {
           },
           employerBranding: {
             title: 'Employer Branding',
-            description: 'Offer corporate-level benefits at SME cost.'
+            description: 'Offer corporate-level benefits at affordable cost.'
           },
           engagementData: {
             title: 'Engagement Data',
@@ -1277,7 +1277,7 @@ const resources = {
           },
           networking: {
             title: 'Networking Dinners',
-            description: 'Monthly meet-ups for SME founders and HR teams.'
+            description: 'Monthly meet-ups for founders and HR teams.'
           }
         },
         cta: {
@@ -1299,7 +1299,7 @@ const resources = {
         },
         vision: {
           title: 'Our Vision',
-          description: 'Build Vietnam\'s first shared benefits network for SMEs — where collective power creates corporate-level perks for everyone.'
+          description: 'Build Vietnam\'s first shared benefits network for all businesses — where collective power creates corporate-level perks for everyone.'
         },
         impact: {
           title: 'Our Impact'
@@ -1345,7 +1345,7 @@ const resources = {
             employees: '50+ employees'
           },
           {
-            company: 'Retail SME',
+            company: 'Retail Company',
             result: '0 admin stress',
             quote: 'Kanopy automated everything — our HR is free again.',
             industry: 'Retail',
@@ -1381,7 +1381,7 @@ const resources = {
         hero: {
           title: 'Blog & Insights',
           subtitle: 'HR trends and tips',
-          description: 'Stay up-to-date with the latest in employee benefits, HR trends, and business insights for SMEs in Vietnam.'
+          description: 'Stay up-to-date with the latest in employee benefits, HR trends, and business insights for companies in Vietnam.'
         },
         categories: {
           hrTrends: 'HR Trends',
@@ -1393,7 +1393,7 @@ const resources = {
         },
         articles: {
           hrTrends: {
-            title: 'HR Trends in Vietnam: What SMEs Need to Know in 2025',
+            title: 'HR Trends in Vietnam: What Companies Need to Know in 2025',
             excerpt: 'Discover the latest trends shaping human resources in Vietnam and how small businesses can stay competitive.',
             date: 'Oct 1, 2025'
           },
@@ -1404,7 +1404,7 @@ const resources = {
           },
           budgetPlanning: {
             title: 'Budget Planning for Employee Benefits: A Complete Guide',
-            excerpt: 'Learn how to create a sustainable budget for employee benefits that works for your SME.',
+            excerpt: 'Learn how to create a sustainable budget for employee benefits that works for your company.',
             date: 'Sep 25, 2025'
           },
           caseStudy: {
@@ -1451,7 +1451,7 @@ const resources = {
           },
           smallTeams: {
             question: 'Can small teams join?',
-            answer: 'Absolutely. Even 10-person SMEs can participate and benefit from our network.'
+            answer: 'Absolutely. Even small companies can participate and benefit from our network.'
           },
           usage: {
             question: 'How do employees use perks?',

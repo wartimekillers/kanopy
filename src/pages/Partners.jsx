@@ -105,7 +105,7 @@ export default function Partners({ onContactClick }) {
                 Merchants & Partners
               </p>
               <p className="muted-text text-lg max-w-2xl mx-auto">
-                Reach 10,000+ professionals across Vietnam through exclusive partnerships. Kanopy brings daily visibility and loyal customers from SME communities.
+                Reach 10,000+ professionals across Vietnam through exclusive partnerships. Kanopy brings daily visibility and loyal customers from all business communities.
               </p>
             </Reveal>
           </div>

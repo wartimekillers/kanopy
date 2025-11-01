@@ -1,4 +1,4 @@
-import{u as o,j as t}from"./index-8zk4WbDP.js";import{R as s}from"./Reveal-DOocE_-I.js";const g=(i,e)=>{const a={"HR Trends":"#4A90E2",Engagement:"#7ED6A7","Budget Planning":"#8B5CF6","Case Study":"#F59E0B","ROI Analysis":"#EF4444","Remote Culture":"#06B6D4"}[e]||"#4A90E2";return`data:image/svg+xml,${encodeURIComponent(`
+import{u as o,j as t}from"./index-asUaPs33.js";import{R as s}from"./Reveal-CJfFVMSA.js";const g=(i,e)=>{const a={"HR Trends":"#4A90E2",Engagement:"#7ED6A7","Budget Planning":"#8B5CF6","Case Study":"#F59E0B","ROI Analysis":"#EF4444","Remote Culture":"#06B6D4"}[e]||"#4A90E2";return`data:image/svg+xml,${encodeURIComponent(`
     <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
